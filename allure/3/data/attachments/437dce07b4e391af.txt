@@ -1,0 +1,94 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.1]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:13.0839 PM
+[ReportManager] File Action [readFromFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:13.0845 P
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:14.0445 PM
+[ReportManager] File Action [readFromFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:14.0448 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 4] scenarios in the [This Feature file demonstrates SHAFT_Engine's built in steps] feature
+Scenario Name:		[TC001 - Open Browser, Navigate to Google, Search for query, Assert Result]
+Scenario Steps:
+Given I Open the target browser
+When I Navigate to "https://www.google.com/ncr" and get redirected to "https://www.google.com/"
+And I Type "SHAFT_Engine" into the element found by "name": "q"
+And I Press the "Enter" key into the element found by "name": "q"
+Then I Assert that the "href" attribute of the element found by "xpath": "(//h2[text()='Web result with site links']/following::a)[1]", equals "https://github.com/MohabMohie/SHAFT_ENGINE"
+And I Close the current window
+################################################################################################################################################
+[ReportManager] Scenario Step: Given I Open the target browser @12-02-2021 18:46:14.0469 PM
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @12-02-2021 18:46:14.0477 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @12-02-2021 18:46:14.0518 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @12-02-2021 18:46:16.0009 PM
+[ReportManager] Scenario Step: When I Navigate to "https://www.google.com/ncr" and get redirected to "https://www.google.com/" @12-02-2021 18:46:16.0070 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com/] @12-02-2021 18:46:16.0073 PM
+[ReportManager] Initial URL: [data:,] @12-02-2021 18:46:16.0179 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @12-02-2021 18:46:17.0360 PM
+[ReportManager] Scenario Step: And I Type "SHAFT_Engine" into the element found by "name": "q" @12-02-2021 18:46:17.0362 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [SHAFT_Engine]. @12-02-2021 18:46:18.0156 PM
+[ReportManager] Scenario Step: And I Press the "Enter" key into the element found by "name": "q" @12-02-2021 18:46:18.0158 PM
+[ReportManager] Element Action [keyPress] successfully performed. With the following test data [Enter]. @12-02-2021 18:46:19.0385 PM
+[ReportManager] Scenario Step: Then I Assert that the "href" attribute of the element found by "xpath": "(//h2[text()='Web result with site links']/following::a)[1]", equals "https://github.com/MohabMohie/SHAFT_ENGINE" @12-02-2021 18:46:19.0385 PM
+[ReportManager] Attempting to getAttribute [href] from elementLocator [By.xpath: (//h2[text()='Web result with site links']/following::a)[1]]. @12-02-2021 18:46:19.0399 PM
+[ReportManager] Element Action [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator "By.xpath: (//h2[text()='Web result with site links']/following::a)[1]".]. @12-02-2021 18:46:19.0865 PM
+[ReportManager] Successfully created attachment [Screenshot - 1613155579637_runScenario_identifyUniqueElement_failed] @12-02-2021 18:46:19.0866 PM
+[ReportManager] AssertElementAttribute FAILED; Expected [Value Should be 'https://github.com/MohabMohie/SHAFT_ENGINE' for the 'href' attribute, element locator 'By.xpath: (//h2[text()='Web result with site links']/following::a)[1]'] and Actual [Failed to read the desired element attribute]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @12-02-2021 18:46:19.0875 PM
+[ReportManager] Scenario Step: And I Close the current window @12-02-2021 18:46:19.0880 P
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:20.0052 PM
+[ReportManager] File Action [readFromFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/CucumberFeatures/Google.feature"]. @12-02-2021 18:46:20.0053 PM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] scenarios in the [This Feature file demonstrates SHAFT_Engine's built in steps] feature
+Scenario Name:		[TC002 - Open Browser, Navigate to Google, Assert Page Title]
+Scenario Steps:
+Given I Open the target browser
+When I Navigate to "https://www.google.com/ncr" and get redirected to "https://www.google.com/"
+Then I Assert that the "Title" attribute of the browser, equals "Google"
+And I Close the current window
+################################################################################################################################################
+[ReportManager] Scenario Step: Given I Open the target browser @12-02-2021 18:46:20.0055 PM
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @12-02-2021 18:46:20.0056 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @12-02-2021 18:46:20.0056 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @12-02-2021 18:46:20.0852 PM
+[ReportManager] Scenario Step: When I Navigate to "https://www.google.com/ncr" and get redirected to "https://www.google.com/" @12-02-2021 18:46:20.0876 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com/] @12-02-2021 18:46:20.0877 PM
+[ReportManager] Initial URL: [data:,] @12-02-2021 18:46:20.0950 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @12-02-2021 18:46:21.0879 PM
+[ReportManager] Scenario Step: Then I Assert that the "Title" attribute of the browser, equals "Google" @12-02-2021 18:46:21.0880 PM
+[ReportManager] Browser Action [getCurrentWindowTitle] successfully performed. With the following test data [Google]. @12-02-2021 18:46:21.0926 PM
+[ReportManager] AssertBrowserAttribute PASSED; Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @12-02-2021 18:46:21.0928 PM
+[ReportManager] Scenario Step: And I Close the current window @12-02-2021 18:46:21.0929 PM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @12-02-2021 18:46:22.0025 PM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @12-02-2021 18:46:22.0071 PM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @12-02-2021 18:46:22.0202 PM
+[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @12-02-2021 18:46:22.0268 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - closeCurrentWindow - Actual Value] @12-02-2021 18:46:22.0273 P
+
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[tests.cli.demo.cliTest.sampleTestCase]
+################################################################################################################################################
+[ReportManager] Attempting to perform the following command locally. Command: [ls] @12-02-2021 18:46:22.0430 PM
+[ReportManager] Terminal Action [performTerminalCommands] successfully performed. With the following test data [Host Name: "localHost" | Command: "ls" | Exit Status: "0"]. @12-02-2021 18:46:22.0441 PM
+[ReportManager] Successfully created attachment [Terminal Action Actual Result - Command Log] @12-02-2021 18:46:22.0441 PM
+[ReportManager] Demoing local terminal actions... @12-02-2021 18:46:22.0444 PM
+[ReportManager] AssertEquals PASSED; Expected [pom.xml] and Actual [LICENSE
+README.md
+allure-results
+docker-compose_native.yml
+docker-compose_zalenium.yml
+pom.xml
+src
+target]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @12-02-2021 18:46:22.0444 P
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @12-02-2021 18:46:23.0320 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.1]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
