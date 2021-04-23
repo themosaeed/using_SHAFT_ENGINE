@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az216-331', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '15.0.3'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5648aa14fe89 <unknown>\n",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "8b2d6ff64c51643d",
+        "parentUid" : "234cbeb79afaf7c19919299a80c88135",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619181077966,
+          "stop" : 1619181077966,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "234cbeb79afaf7c19919299a80c88135"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "API Action [performRequest] failed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://jsonplaceholder.typicode.com/users\" | Content Type: \"*/*\" | Response Time: \"769ms\"].",
+      "children" : [ {
+        "name" : "validateUserEmail",
+        "uid" : "ef03980b1c60b7b1",
+        "parentUid" : "b2e2e73b54e5226757dc0dc209ecf57c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619181108031,
+          "stop" : 1619181110497,
+          "duration" : 2466
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2e2e73b54e5226757dc0dc209ecf57c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
