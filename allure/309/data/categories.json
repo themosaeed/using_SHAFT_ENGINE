@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az296-429', ip: '10.1.0.146', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '15.0.3'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55a61dafbe89 <unknown>\n",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "d90d21df53fd939f",
+        "parentUid" : "90677aabfd98e3534900887be07a5398",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619526607428,
+          "stop" : 1619526607429,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90677aabfd98e3534900887be07a5398"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element Action [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator \"By.name: q\".].",
+      "children" : [ {
+        "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+        "uid" : "380f944ed20540ec",
+        "parentUid" : "76718f2ffe07ff58d40e5ab12542406b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619526620338,
+          "stop" : 1619526645974,
+          "duration" : 25636
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76718f2ffe07ff58d40e5ab12542406b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
