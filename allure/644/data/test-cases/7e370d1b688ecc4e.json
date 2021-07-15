@@ -1,0 +1,587 @@
+{
+  "uid" : "7e370d1b688ecc4e",
+  "name" : "navigateToGoogleHomeAndAssertPageTitle",
+  "fullName" : "tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertPageTitle",
+  "historyId" : "2a3f4417d6313523a499cea7026dc822",
+  "time" : {
+    "start" : 1626331220879,
+    "stop" : 1626331221039,
+    "duration" : 160
+  },
+  "status" : "failed",
+  "statusMessage" : "Assertion [ValidateBrowserAttribute] FAILED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Error 502 (Server Error)!!1]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+  "statusTrace" : "java.lang.AssertionError: Assertion [ValidateBrowserAttribute] FAILED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Error 502 (Server Error)!!1]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:797)\n\tat com.shaft.validation.ValidationHelper.fail(ValidationHelper.java:557)\n\tat com.shaft.validation.ValidationHelper.reportValidationResultOfBrowserAttribute(ValidationHelper.java:667)\n\tat com.shaft.validation.ValidationHelper.validateBrowserAttribute(ValidationHelper.java:330)\n\tat com.shaft.validation.Assertions.assertBrowserAttribute(Assertions.java:378)\n\tat tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertPageTitle(F_Search_PageObjectModel_Fluent.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1626331220385,
+      "stop" : 1626331220875,
+      "duration" : 490
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1626331220386,
+        "stop" : 1626331220386,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "53"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1626331220605,
+        "stop" : 1626331220605,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "54"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr].",
+      "time" : {
+        "start" : 1626331220875,
+        "stop" : 1626331220875,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "55"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1626331218681,
+      "stop" : 1626331218724,
+      "duration" : 43
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx].",
+      "time" : {
+        "start" : 1626331218723,
+        "stop" : 1626331218724,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfb13beb5cc30276",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "dfb13beb5cc30276.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12055
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "47"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@2eba2e9d]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Assertion [ValidateBrowserAttribute] FAILED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Error 502 (Server Error)!!1]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+    "statusTrace" : "java.lang.AssertionError: Assertion [ValidateBrowserAttribute] FAILED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Error 502 (Server Error)!!1]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:797)\n\tat com.shaft.validation.ValidationHelper.fail(ValidationHelper.java:557)\n\tat com.shaft.validation.ValidationHelper.reportValidationResultOfBrowserAttribute(ValidationHelper.java:667)\n\tat com.shaft.validation.ValidationHelper.validateBrowserAttribute(ValidationHelper.java:330)\n\tat com.shaft.validation.Assertions.assertBrowserAttribute(Assertions.java:378)\n\tat tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertPageTitle(F_Search_PageObjectModel_Fluent.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Assertion Failed: Demoing local terminal actions",
+      "time" : {
+        "start" : 1626331221030,
+        "stop" : 1626331221031,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7de884233e9af048",
+        "name" : "Attachment: Screenshot - 1626331220990_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_failed",
+        "source" : "7de884233e9af048.png",
+        "type" : "image/png",
+        "size" : 30268
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "56"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Failed: Demoing local terminal actions"
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateBrowserAttribute] FAILED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Error 502 (Server Error)!!1]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1626331220990_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_failed, java.io.ByteArrayInputStream@386c6903]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3d4cf44f6d48aff0",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: navigateToGoogleHomeAndAssertPageTitle",
+      "source" : "3d4cf44f6d48aff0.txt",
+      "type" : "text/plain",
+      "size" : 1147
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1626331221040,
+      "stop" : 1626331221196,
+      "duration" : 156
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1626331221195,
+        "stop" : 1626331221196,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1df09a25d46d448",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "e1df09a25d46d448.html",
+        "type" : "text/html",
+        "size" : 1651
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "57"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html lang=\"en\"><head><meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 502 (Server Error)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  </head><body><a href=\"//www.google.com/\"><span id=\"logo\" aria-label=\"Google\"></span></a>\n  <p><b>502.</b> <ins>That’s an error.</ins>\n  </p><p>The server encountered a temporary error and could not complete your request.</p><p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>\n</p></body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "83e03a705ef8fa48",
+      "name" : "Attachment: Selenium WebDriver Logs - server",
+      "source" : "83e03a705ef8fa48.txt",
+      "type" : "text/plain",
+      "size" : 1300
+    }, {
+      "uid" : "a0d9bdecb3e1e432",
+      "name" : "Attachment: Selenium WebDriver Logs - performance",
+      "source" : "a0d9bdecb3e1e432.txt",
+      "type" : "text/plain",
+      "size" : 16739
+    }, {
+      "uid" : "fff04205b3c0168a",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "fff04205b3c0168a.txt",
+      "type" : "text/plain",
+      "size" : 135
+    }, {
+      "uid" : "8888abacac85a165",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "8888abacac85a165.txt",
+      "type" : "text/plain",
+      "size" : 110523
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1626331246571,
+      "stop" : 1626331246770,
+      "duration" : 199
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1626331246571,
+        "stop" : 1626331246571,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "120"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1626331246575,
+        "stop" : 1626331246575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "365295cc2b6ac7c8",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210715-064046",
+        "source" : "365295cc2b6ac7c8.csv",
+        "type" : "text/csv",
+        "size" : 163
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "121"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210715-064046, java.io.ByteArrayInputStream@232a0cfd]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a6f57b97f36ee812",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210715-064046",
+      "source" : "a6f57b97f36ee812.txt",
+      "type" : "text/plain",
+      "size" : 61922
+    }, {
+      "uid" : "740af1f26bc427db",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "740af1f26bc427db.html",
+      "type" : "text/html",
+      "size" : 1515049
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.google.F_Search_PageObjectModel_Fluent"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.google.F_Search_PageObjectModel_Fluent"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToGoogleHomeAndAssertPageTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.google.F_Search_PageObjectModel_Fluent"
+  }, {
+    "name" : "host",
+    "value" : "fv-az154-100"
+  }, {
+    "name" : "thread",
+    "value" : "3934@fv-az154-100.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 229,
+        "unknown" : 0,
+        "total" : 230
+      },
+      "items" : [ {
+        "uid" : "fac337c9f965fe42",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/643//#testresult/fac337c9f965fe42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626312742233,
+          "stop" : 1626312742402,
+          "duration" : 169
+        }
+      }, {
+        "uid" : "44a418e468290010",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/642//#testresult/44a418e468290010",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626288030440,
+          "stop" : 1626288030615,
+          "duration" : 175
+        }
+      }, {
+        "uid" : "c1f4faa8407ffe9",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/641//#testresult/c1f4faa8407ffe9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626267230607,
+          "stop" : 1626267230787,
+          "duration" : 180
+        }
+      }, {
+        "uid" : "683dc564f2d6f4d5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/640//#testresult/683dc564f2d6f4d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626244921004,
+          "stop" : 1626244921198,
+          "duration" : 194
+        }
+      }, {
+        "uid" : "a9ff68df8ac1019",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/639//#testresult/a9ff68df8ac1019",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626225999518,
+          "stop" : 1626225999675,
+          "duration" : 157
+        }
+      }, {
+        "uid" : "90f752058af57bb8",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/638//#testresult/90f752058af57bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626201736960,
+          "stop" : 1626201737117,
+          "duration" : 157
+        }
+      }, {
+        "uid" : "10be4a5cc270d6a1",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/637//#testresult/10be4a5cc270d6a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626180831526,
+          "stop" : 1626180831726,
+          "duration" : 200
+        }
+      }, {
+        "uid" : "7770f4b618b1b682",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/636//#testresult/7770f4b618b1b682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626158537780,
+          "stop" : 1626158537967,
+          "duration" : 187
+        }
+      }, {
+        "uid" : "2599f564279eb243",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/635//#testresult/2599f564279eb243",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626140025730,
+          "stop" : 1626140025889,
+          "duration" : 159
+        }
+      }, {
+        "uid" : "339c4e10a1b7c333",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/634//#testresult/339c4e10a1b7c333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626115354684,
+          "stop" : 1626115354925,
+          "duration" : 241
+        }
+      }, {
+        "uid" : "23943617f1596479",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/633//#testresult/23943617f1596479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626094279596,
+          "stop" : 1626094279762,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "f52ac5a8bd707ae6",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/632//#testresult/f52ac5a8bd707ae6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626072198360,
+          "stop" : 1626072198573,
+          "duration" : 213
+        }
+      }, {
+        "uid" : "9eae15dcef407a5d",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/631//#testresult/9eae15dcef407a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626053384085,
+          "stop" : 1626053384247,
+          "duration" : 162
+        }
+      }, {
+        "uid" : "ef46619212fc9771",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/630//#testresult/ef46619212fc9771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626028760042,
+          "stop" : 1626028760230,
+          "duration" : 188
+        }
+      }, {
+        "uid" : "389b371526d9563",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/629//#testresult/389b371526d9563",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626007746136,
+          "stop" : 1626007746333,
+          "duration" : 197
+        }
+      }, {
+        "uid" : "b3d474d5143f50ba",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/628//#testresult/b3d474d5143f50ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625985690850,
+          "stop" : 1625985691056,
+          "duration" : 206
+        }
+      }, {
+        "uid" : "fe14533cb2e831e0",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/627//#testresult/fe14533cb2e831e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625967325795,
+          "stop" : 1625967325962,
+          "duration" : 167
+        }
+      }, {
+        "uid" : "885d6c8ee143e9e3",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/626//#testresult/885d6c8ee143e9e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625942390447,
+          "stop" : 1625942390622,
+          "duration" : 175
+        }
+      }, {
+        "uid" : "b6191d4c44f96ca2",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/625//#testresult/b6191d4c44f96ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625921297716,
+          "stop" : 1625921297899,
+          "duration" : 183
+        }
+      }, {
+        "uid" : "b86148f12584c9f6",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/624//#testresult/b86148f12584c9f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625899256548,
+          "stop" : 1625899256733,
+          "duration" : 185
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7e370d1b688ecc4e.json",
+  "parameterValues" : [ ]
+}
