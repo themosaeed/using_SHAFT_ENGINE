@@ -1,0 +1,420 @@
+{
+  "uid" : "26d12fb71b3c3a3c",
+  "name" : "searchForQueryAndAssertFirstResultTextIsCorrect",
+  "fullName" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.searchForQueryAndAssertFirstResultTextIsCorrect",
+  "historyId" : "fdc05655c0baedca02c68f2849cb257b",
+  "time" : {
+    "start" : 1631583104473,
+    "stop" : 1631583104474,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az204-589', ip: '10.1.1.124', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5605a1710583 <unknown>\n#1 0x5605a1484a38 <unknown>\n#2 0x5605a14a7923 <unknown>\n#3 0x5605a14a34df <unknown>\n#4 0x5605a14dd1e2 <unknown>\n#5 0x5605a14d7643 <unknown>\n#6 0x5605a14adb94 <unknown>\n#7 0x5605a14aeb85 <unknown>\n#8 0x5605a1740c6e <unknown>\n#9 0x5605a1756975 <unknown>\n#10 0x5605a1741bc5 <unknown>\n#11 0x5605a1757fb5 <unknown>\n#12 0x5605a173684b <unknown>\n#13 0x5605a1773248 <unknown>\n#14 0x5605a17733c8 <unknown>\n#15 0x5605a178d73d <unknown>\n#16 0x7f9cf8191609 start_thread\n",
+  "statusTrace" : "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az204-589', ip: '10.1.1.124', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5605a1710583 <unknown>\n#1 0x5605a1484a38 <unknown>\n#2 0x5605a14a7923 <unknown>\n#3 0x5605a14a34df <unknown>\n#4 0x5605a14dd1e2 <unknown>\n#5 0x5605a14d7643 <unknown>\n#6 0x5605a14adb94 <unknown>\n#7 0x5605a14aeb85 <unknown>\n#8 0x5605a1740c6e <unknown>\n#9 0x5605a1756975 <unknown>\n#10 0x5605a1741bc5 <unknown>\n#11 0x5605a1757fb5 <unknown>\n#12 0x5605a173684b <unknown>\n#13 0x5605a1773248 <unknown>\n#14 0x5605a17733c8 <unknown>\n#15 0x5605a178d73d <unknown>\n#16 0x7f9cf8191609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1631583104471,
+      "stop" : 1631583104471,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1631583098479,
+      "stop" : 1631583101246,
+      "duration" : 2767
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az204-589', ip: '10.1.1.124', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5605a1710583 <unknown>\n#1 0x5605a1484a38 <unknown>\n#2 0x5605a14a7923 <unknown>\n#3 0x5605a14a34df <unknown>\n#4 0x5605a14dd1e2 <unknown>\n#5 0x5605a14d7643 <unknown>\n#6 0x5605a14adb94 <unknown>\n#7 0x5605a14aeb85 <unknown>\n#8 0x5605a1740c6e <unknown>\n#9 0x5605a1756975 <unknown>\n#10 0x5605a1741bc5 <unknown>\n#11 0x5605a1757fb5 <unknown>\n#12 0x5605a173684b <unknown>\n#13 0x5605a1773248 <unknown>\n#14 0x5605a17733c8 <unknown>\n#15 0x5605a178d73d <unknown>\n#16 0x7f9cf8191609 start_thread\n",
+    "statusTrace" : "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az204-589', ip: '10.1.1.124', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5605a1710583 <unknown>\n#1 0x5605a1484a38 <unknown>\n#2 0x5605a14a7923 <unknown>\n#3 0x5605a14a34df <unknown>\n#4 0x5605a14dd1e2 <unknown>\n#5 0x5605a14d7643 <unknown>\n#6 0x5605a14adb94 <unknown>\n#7 0x5605a14aeb85 <unknown>\n#8 0x5605a1740c6e <unknown>\n#9 0x5605a1756975 <unknown>\n#10 0x5605a1741bc5 <unknown>\n#11 0x5605a1757fb5 <unknown>\n#12 0x5605a173684b <unknown>\n#13 0x5605a1773248 <unknown>\n#14 0x5605a17733c8 <unknown>\n#15 0x5605a178d73d <unknown>\n#16 0x7f9cf8191609 start_thread\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c67595b4c03218d3",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: searchForQueryAndAssertFirstResultTextIsCorrect",
+      "source" : "c67595b4c03218d3.txt",
+      "type" : "text/plain",
+      "size" : 479
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1631583104476,
+      "stop" : 1631583104476,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1631583118476,
+      "stop" : 1631583118648,
+      "duration" : 172
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1631583118476,
+        "stop" : 1631583118476,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "120"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 6, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1631583118484,
+        "stop" : 1631583118484,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "569613c803df94f1",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210914-013158",
+        "source" : "569613c803df94f1.csv",
+        "type" : "text/csv",
+        "size" : 1075
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "121"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 6, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210914-013158, java.io.ByteArrayInputStream@76e5f0ea]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1d3eb83b0238c9db",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210914-013158",
+      "source" : "1d3eb83b0238c9db.txt",
+      "type" : "text/plain",
+      "size" : 62026
+    }, {
+      "uid" : "70ee93082acf0b78",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "70ee93082acf0b78.html",
+      "type" : "text/html",
+      "size" : 1453820
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchForQueryAndAssertFirstResultTextIsCorrect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-589"
+  }, {
+    "name" : "thread",
+    "value" : "3697@fv-az204-589.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 479,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 479
+      },
+      "items" : [ {
+        "uid" : "4c1271ae0ecc07a5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/895//#testresult/4c1271ae0ecc07a5",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az198-744', ip: '10.1.2.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x564afa2f5583 <unknown>\n#1 0x564afa069a38 <unknown>\n#2 0x564afa08c923 <unknown>\n#3 0x564afa0884df <unknown>\n#4 0x564afa0c21e2 <unknown>\n#5 0x564afa0bc643 <unknown>\n#6 0x564afa092b94 <unknown>\n#7 0x564afa093b85 <unknown>\n#8 0x564afa325c6e <unknown>\n#9 0x564afa33b975 <unknown>\n#10 0x564afa326bc5 <unknown>\n#11 0x564afa33cfb5 <unknown>\n#12 0x564afa31b84b <unknown>\n#13 0x564afa358248 <unknown>\n#14 0x564afa3583c8 <unknown>\n#15 0x564afa37273d <unknown>\n#16 0x7fce560a1609 start_thread\n",
+        "time" : {
+          "start" : 1631558313907,
+          "stop" : 1631558313909,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "9978be38af0c637e",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/894//#testresult/9978be38af0c637e",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az204-543', ip: '10.1.0.60', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55e555e22583 <unknown>\n#1 0x55e555b96a38 <unknown>\n#2 0x55e555bb9923 <unknown>\n#3 0x55e555bb54df <unknown>\n#4 0x55e555bef1e2 <unknown>\n#5 0x55e555be9643 <unknown>\n#6 0x55e555bbfb94 <unknown>\n#7 0x55e555bc0b85 <unknown>\n#8 0x55e555e52c6e <unknown>\n#9 0x55e555e68975 <unknown>\n#10 0x55e555e53bc5 <unknown>\n#11 0x55e555e69fb5 <unknown>\n#12 0x55e555e4884b <unknown>\n#13 0x55e555e85248 <unknown>\n#14 0x55e555e853c8 <unknown>\n#15 0x55e555e9f73d <unknown>\n#16 0x7fbf41308609 start_thread\n",
+        "time" : {
+          "start" : 1631537634791,
+          "stop" : 1631537634792,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "25e955d4dc9f34a6",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/893//#testresult/25e955d4dc9f34a6",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az216-554', ip: '10.1.0.255', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55bb95feb583 <unknown>\n#1 0x55bb95d5fa38 <unknown>\n#2 0x55bb95d82923 <unknown>\n#3 0x55bb95d7e4df <unknown>\n#4 0x55bb95db81e2 <unknown>\n#5 0x55bb95db2643 <unknown>\n#6 0x55bb95d88b94 <unknown>\n#7 0x55bb95d89b85 <unknown>\n#8 0x55bb9601bc6e <unknown>\n#9 0x55bb96031975 <unknown>\n#10 0x55bb9601cbc5 <unknown>\n#11 0x55bb96032fb5 <unknown>\n#12 0x55bb9601184b <unknown>\n#13 0x55bb9604e248 <unknown>\n#14 0x55bb9604e3c8 <unknown>\n#15 0x55bb9606873d <unknown>\n#16 0x7f272efcc609 start_thread\n",
+        "time" : {
+          "start" : 1631515193455,
+          "stop" : 1631515193456,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9d0dd42427f8dd47",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/892//#testresult/9d0dd42427f8dd47",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az290-483', ip: '10.1.0.204', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x557ebd918583 <unknown>\n#1 0x557ebd68ca38 <unknown>\n#2 0x557ebd6af923 <unknown>\n#3 0x557ebd6ab4df <unknown>\n#4 0x557ebd6e51e2 <unknown>\n#5 0x557ebd6df643 <unknown>\n#6 0x557ebd6b5b94 <unknown>\n#7 0x557ebd6b6b85 <unknown>\n#8 0x557ebd948c6e <unknown>\n#9 0x557ebd95e975 <unknown>\n#10 0x557ebd949bc5 <unknown>\n#11 0x557ebd95ffb5 <unknown>\n#12 0x557ebd93e84b <unknown>\n#13 0x557ebd97b248 <unknown>\n#14 0x557ebd97b3c8 <unknown>\n#15 0x557ebd99573d <unknown>\n#16 0x7f530dc6c609 start_thread\n",
+        "time" : {
+          "start" : 1631496689709,
+          "stop" : 1631496689710,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8d8860e476a1b896",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/891//#testresult/8d8860e476a1b896",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az219-330', ip: '10.1.0.69', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55ef32eae583 <unknown>\n#1 0x55ef32c22a38 <unknown>\n#2 0x55ef32c45923 <unknown>\n#3 0x55ef32c414df <unknown>\n#4 0x55ef32c7b1e2 <unknown>\n#5 0x55ef32c75643 <unknown>\n#6 0x55ef32c4bb94 <unknown>\n#7 0x55ef32c4cb85 <unknown>\n#8 0x55ef32edec6e <unknown>\n#9 0x55ef32ef4975 <unknown>\n#10 0x55ef32edfbc5 <unknown>\n#11 0x55ef32ef5fb5 <unknown>\n#12 0x55ef32ed484b <unknown>\n#13 0x55ef32f11248 <unknown>\n#14 0x55ef32f113c8 <unknown>\n#15 0x55ef32f2b73d <unknown>\n#16 0x7f241af96609 start_thread\n",
+        "time" : {
+          "start" : 1631471828634,
+          "stop" : 1631471828636,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "29b9cd65e5952be4",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/890//#testresult/29b9cd65e5952be4",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az290-483', ip: '10.1.0.123', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x555c030b7583 <unknown>\n#1 0x555c02e2ba38 <unknown>\n#2 0x555c02e4e923 <unknown>\n#3 0x555c02e4a4df <unknown>\n#4 0x555c02e841e2 <unknown>\n#5 0x555c02e7e643 <unknown>\n#6 0x555c02e54b94 <unknown>\n#7 0x555c02e55b85 <unknown>\n#8 0x555c030e7c6e <unknown>\n#9 0x555c030fd975 <unknown>\n#10 0x555c030e8bc5 <unknown>\n#11 0x555c030fefb5 <unknown>\n#12 0x555c030dd84b <unknown>\n#13 0x555c0311a248 <unknown>\n#14 0x555c0311a3c8 <unknown>\n#15 0x555c0313473d <unknown>\n#16 0x7fce4eaf4609 start_thread\n",
+        "time" : {
+          "start" : 1631450936445,
+          "stop" : 1631450936446,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "581a2df757019902",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/889//#testresult/581a2df757019902",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az219-330', ip: '10.1.0.105', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55dbf7c2e583 <unknown>\n#1 0x55dbf79a2a38 <unknown>\n#2 0x55dbf79c5923 <unknown>\n#3 0x55dbf79c14df <unknown>\n#4 0x55dbf79fb1e2 <unknown>\n#5 0x55dbf79f5643 <unknown>\n#6 0x55dbf79cbb94 <unknown>\n#7 0x55dbf79ccb85 <unknown>\n#8 0x55dbf7c5ec6e <unknown>\n#9 0x55dbf7c74975 <unknown>\n#10 0x55dbf7c5fbc5 <unknown>\n#11 0x55dbf7c75fb5 <unknown>\n#12 0x55dbf7c5484b <unknown>\n#13 0x55dbf7c91248 <unknown>\n#14 0x55dbf7c913c8 <unknown>\n#15 0x55dbf7cab73d <unknown>\n#16 0x7f76c38d9609 start_thread\n",
+        "time" : {
+          "start" : 1631428712336,
+          "stop" : 1631428712338,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "e077400e5857a59d",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/888//#testresult/e077400e5857a59d",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az154-983', ip: '10.1.0.55', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55841fbc6583 <unknown>\n#1 0x55841f93aa38 <unknown>\n#2 0x55841f95d923 <unknown>\n#3 0x55841f9594df <unknown>\n#4 0x55841f9931e2 <unknown>\n#5 0x55841f98d643 <unknown>\n#6 0x55841f963b94 <unknown>\n#7 0x55841f964b85 <unknown>\n#8 0x55841fbf6c6e <unknown>\n#9 0x55841fc0c975 <unknown>\n#10 0x55841fbf7bc5 <unknown>\n#11 0x55841fc0dfb5 <unknown>\n#12 0x55841fbec84b <unknown>\n#13 0x55841fc29248 <unknown>\n#14 0x55841fc293c8 <unknown>\n#15 0x55841fc4373d <unknown>\n#16 0x7fa9c366d609 start_thread\n",
+        "time" : {
+          "start" : 1631410403593,
+          "stop" : 1631410403594,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b7a150d7cc531d39",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/887//#testresult/b7a150d7cc531d39",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az201-275', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55dd0561c583 <unknown>\n#1 0x55dd05390a38 <unknown>\n#2 0x55dd053b3923 <unknown>\n#3 0x55dd053af4df <unknown>\n#4 0x55dd053e91e2 <unknown>\n#5 0x55dd053e3643 <unknown>\n#6 0x55dd053b9b94 <unknown>\n#7 0x55dd053bab85 <unknown>\n#8 0x55dd0564cc6e <unknown>\n#9 0x55dd05662975 <unknown>\n#10 0x55dd0564dbc5 <unknown>\n#11 0x55dd05663fb5 <unknown>\n#12 0x55dd0564284b <unknown>\n#13 0x55dd0567f248 <unknown>\n#14 0x55dd0567f3c8 <unknown>\n#15 0x55dd0569973d <unknown>\n#16 0x7efc50585609 start_thread\n",
+        "time" : {
+          "start" : 1631385362702,
+          "stop" : 1631385362703,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6915e5f9d0af09d5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/886//#testresult/6915e5f9d0af09d5",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az216-554', ip: '10.1.0.123', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55af9c8ad583 <unknown>\n#1 0x55af9c621a38 <unknown>\n#2 0x55af9c644923 <unknown>\n#3 0x55af9c6404df <unknown>\n#4 0x55af9c67a1e2 <unknown>\n#5 0x55af9c674643 <unknown>\n#6 0x55af9c64ab94 <unknown>\n#7 0x55af9c64bb85 <unknown>\n#8 0x55af9c8ddc6e <unknown>\n#9 0x55af9c8f3975 <unknown>\n#10 0x55af9c8debc5 <unknown>\n#11 0x55af9c8f4fb5 <unknown>\n#12 0x55af9c8d384b <unknown>\n#13 0x55af9c910248 <unknown>\n#14 0x55af9c9103c8 <unknown>\n#15 0x55af9c92a73d <unknown>\n#16 0x7f20d8c78609 start_thread\n",
+        "time" : {
+          "start" : 1631364545112,
+          "stop" : 1631364545113,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f07b4b88335d627a",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/885//#testresult/f07b4b88335d627a",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az212-377', ip: '10.1.0.88', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5628b3970583 <unknown>\n#1 0x5628b36e4a38 <unknown>\n#2 0x5628b3707923 <unknown>\n#3 0x5628b37034df <unknown>\n#4 0x5628b373d1e2 <unknown>\n#5 0x5628b3737643 <unknown>\n#6 0x5628b370db94 <unknown>\n#7 0x5628b370eb85 <unknown>\n#8 0x5628b39a0c6e <unknown>\n#9 0x5628b39b6975 <unknown>\n#10 0x5628b39a1bc5 <unknown>\n#11 0x5628b39b7fb5 <unknown>\n#12 0x5628b399684b <unknown>\n#13 0x5628b39d3248 <unknown>\n#14 0x5628b39d33c8 <unknown>\n#15 0x5628b39ed73d <unknown>\n#16 0x7fbdfad92609 start_thread\n",
+        "time" : {
+          "start" : 1631342265114,
+          "stop" : 1631342265115,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9aeb52a878f21c32",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/884//#testresult/9aeb52a878f21c32",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az216-554', ip: '10.1.0.100', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55644c408583 <unknown>\n#1 0x55644c17ca38 <unknown>\n#2 0x55644c19f923 <unknown>\n#3 0x55644c19b4df <unknown>\n#4 0x55644c1d51e2 <unknown>\n#5 0x55644c1cf643 <unknown>\n#6 0x55644c1a5b94 <unknown>\n#7 0x55644c1a6b85 <unknown>\n#8 0x55644c438c6e <unknown>\n#9 0x55644c44e975 <unknown>\n#10 0x55644c439bc5 <unknown>\n#11 0x55644c44ffb5 <unknown>\n#12 0x55644c42e84b <unknown>\n#13 0x55644c46b248 <unknown>\n#14 0x55644c46b3c8 <unknown>\n#15 0x55644c48573d <unknown>\n#16 0x7f86b3f48609 start_thread\n",
+        "time" : {
+          "start" : 1631323725796,
+          "stop" : 1631323725797,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "23fbb2a6f1e868bc",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/883//#testresult/23fbb2a6f1e868bc",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az198-755', ip: '10.1.0.129', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x560c65aee583 <unknown>\n#1 0x560c65862a38 <unknown>\n#2 0x560c65885923 <unknown>\n#3 0x560c658814df <unknown>\n#4 0x560c658bb1e2 <unknown>\n#5 0x560c658b5643 <unknown>\n#6 0x560c6588bb94 <unknown>\n#7 0x560c6588cb85 <unknown>\n#8 0x560c65b1ec6e <unknown>\n#9 0x560c65b34975 <unknown>\n#10 0x560c65b1fbc5 <unknown>\n#11 0x560c65b35fb5 <unknown>\n#12 0x560c65b1484b <unknown>\n#13 0x560c65b51248 <unknown>\n#14 0x560c65b513c8 <unknown>\n#15 0x560c65b6b73d <unknown>\n#16 0x7fceb3873609 start_thread\n",
+        "time" : {
+          "start" : 1631299024783,
+          "stop" : 1631299024784,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "504af46f153f0e57",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/882//#testresult/504af46f153f0e57",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az216-554', ip: '10.1.0.236', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5596e3a89583 <unknown>\n#1 0x5596e37fda38 <unknown>\n#2 0x5596e3820923 <unknown>\n#3 0x5596e381c4df <unknown>\n#4 0x5596e38561e2 <unknown>\n#5 0x5596e3850643 <unknown>\n#6 0x5596e3826b94 <unknown>\n#7 0x5596e3827b85 <unknown>\n#8 0x5596e3ab9c6e <unknown>\n#9 0x5596e3acf975 <unknown>\n#10 0x5596e3ababc5 <unknown>\n#11 0x5596e3ad0fb5 <unknown>\n#12 0x5596e3aaf84b <unknown>\n#13 0x5596e3aec248 <unknown>\n#14 0x5596e3aec3c8 <unknown>\n#15 0x5596e3b0673d <unknown>\n#16 0x7fa2e9239609 start_thread\n",
+        "time" : {
+          "start" : 1631278226978,
+          "stop" : 1631278226979,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fba25e4d03590ec5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/881//#testresult/fba25e4d03590ec5",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az292-8', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5619b9e3d583 <unknown>\n#1 0x5619b9bb1a38 <unknown>\n#2 0x5619b9bd4923 <unknown>\n#3 0x5619b9bd04df <unknown>\n#4 0x5619b9c0a1e2 <unknown>\n#5 0x5619b9c04643 <unknown>\n#6 0x5619b9bdab94 <unknown>\n#7 0x5619b9bdbb85 <unknown>\n#8 0x5619b9e6dc6e <unknown>\n#9 0x5619b9e83975 <unknown>\n#10 0x5619b9e6ebc5 <unknown>\n#11 0x5619b9e84fb5 <unknown>\n#12 0x5619b9e6384b <unknown>\n#13 0x5619b9ea0248 <unknown>\n#14 0x5619b9ea03c8 <unknown>\n#15 0x5619b9eba73d <unknown>\n#16 0x7faa3c0c3609 start_thread\n",
+        "time" : {
+          "start" : 1631255964126,
+          "stop" : 1631255964127,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b8541dfee63ed820",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/880//#testresult/b8541dfee63ed820",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az219-330', ip: '10.1.0.109', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x55e12a351583 <unknown>\n#1 0x55e12a0c5a38 <unknown>\n#2 0x55e12a0e8923 <unknown>\n#3 0x55e12a0e44df <unknown>\n#4 0x55e12a11e1e2 <unknown>\n#5 0x55e12a118643 <unknown>\n#6 0x55e12a0eeb94 <unknown>\n#7 0x55e12a0efb85 <unknown>\n#8 0x55e12a381c6e <unknown>\n#9 0x55e12a397975 <unknown>\n#10 0x55e12a382bc5 <unknown>\n#11 0x55e12a398fb5 <unknown>\n#12 0x55e12a37784b <unknown>\n#13 0x55e12a3b4248 <unknown>\n#14 0x55e12a3b43c8 <unknown>\n#15 0x55e12a3ce73d <unknown>\n#16 0x7fd58ce9a609 start_thread\n",
+        "time" : {
+          "start" : 1631237604729,
+          "stop" : 1631237604731,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "cfd036a018bd1cbc",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/879//#testresult/cfd036a018bd1cbc",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az201-275', ip: '10.1.0.223', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x563e2f2ec583 <unknown>\n#1 0x563e2f060a38 <unknown>\n#2 0x563e2f083923 <unknown>\n#3 0x563e2f07f4df <unknown>\n#4 0x563e2f0b91e2 <unknown>\n#5 0x563e2f0b3643 <unknown>\n#6 0x563e2f089b94 <unknown>\n#7 0x563e2f08ab85 <unknown>\n#8 0x563e2f31cc6e <unknown>\n#9 0x563e2f332975 <unknown>\n#10 0x563e2f31dbc5 <unknown>\n#11 0x563e2f333fb5 <unknown>\n#12 0x563e2f31284b <unknown>\n#13 0x563e2f34f248 <unknown>\n#14 0x563e2f34f3c8 <unknown>\n#15 0x563e2f36973d <unknown>\n#16 0x7f5f248d2609 start_thread\n",
+        "time" : {
+          "start" : 1631212645413,
+          "stop" : 1631212645414,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f0aa75a082011416",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/878//#testresult/f0aa75a082011416",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az292-8', ip: '10.1.0.163', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5570c7ed7583 <unknown>\n#1 0x5570c7c4ba38 <unknown>\n#2 0x5570c7c6e923 <unknown>\n#3 0x5570c7c6a4df <unknown>\n#4 0x5570c7ca41e2 <unknown>\n#5 0x5570c7c9e643 <unknown>\n#6 0x5570c7c74b94 <unknown>\n#7 0x5570c7c75b85 <unknown>\n#8 0x5570c7f07c6e <unknown>\n#9 0x5570c7f1d975 <unknown>\n#10 0x5570c7f08bc5 <unknown>\n#11 0x5570c7f1efb5 <unknown>\n#12 0x5570c7efd84b <unknown>\n#13 0x5570c7f3a248 <unknown>\n#14 0x5570c7f3a3c8 <unknown>\n#15 0x5570c7f5473d <unknown>\n#16 0x7f8127d48609 start_thread\n",
+        "time" : {
+          "start" : 1631191857109,
+          "stop" : 1631191857110,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e3b0f661168286d2",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/877//#testresult/e3b0f661168286d2",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az219-171', ip: '10.1.1.187', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5646996f0a63 <unknown>\n#1 0x564699465458 <unknown>\n#2 0x5646994882e3 <unknown>\n#3 0x564699483e9f <unknown>\n#4 0x5646994bdb72 <unknown>\n#5 0x5646994b7fd3 <unknown>\n#6 0x56469948e514 <unknown>\n#7 0x56469948f505 <unknown>\n#8 0x56469971ce2e <unknown>\n#9 0x564699732886 <unknown>\n#10 0x56469971dd75 <unknown>\n#11 0x564699733d94 <unknown>\n#12 0x5646997148eb <unknown>\n#13 0x56469974ecd8 <unknown>\n#14 0x56469974ee58 <unknown>\n#15 0x564699768dfd <unknown>\n#16 0x7f53a067b609 start_thread\n",
+        "time" : {
+          "start" : 1631169584973,
+          "stop" : 1631169584974,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e19c725cd70cc57f",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/876//#testresult/e19c725cd70cc57f",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az212-141', ip: '10.1.1.58', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '16.0.2'\nDriver info: driver.version: A_Search_FlatTest_NativeSeleniumWebDriver\nremote stacktrace: #0 0x5647d5b96a63 <unknown>\n#1 0x5647d590b458 <unknown>\n#2 0x5647d592e2e3 <unknown>\n#3 0x5647d5929e9f <unknown>\n#4 0x5647d5963b72 <unknown>\n#5 0x5647d595dfd3 <unknown>\n#6 0x5647d5934514 <unknown>\n#7 0x5647d5935505 <unknown>\n#8 0x5647d5bc2e2e <unknown>\n#9 0x5647d5bd8886 <unknown>\n#10 0x5647d5bc3d75 <unknown>\n#11 0x5647d5bd9d94 <unknown>\n#12 0x5647d5bba8eb <unknown>\n#13 0x5647d5bf4cd8 <unknown>\n#14 0x5647d5bf4e58 <unknown>\n#15 0x5647d5c0edfd <unknown>\n#16 0x7f5f51025609 start_thread\n",
+        "time" : {
+          "start" : 1631151256418,
+          "stop" : 1631151256418,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "26d12fb71b3c3a3c.json",
+  "parameterValues" : [ ]
+}
