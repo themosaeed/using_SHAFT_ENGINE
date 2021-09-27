@@ -37,13 +37,21 @@
 -   In that case you need to add the SHAFT_Engine custom listeners to your TestNG execution template, as IntelliJ doesn't natively inherit this list from the pom.xml file.
 -   Here are the steps you need to follow:
 
-    -   This is the error that you may see <img src="https://drive.google.com/uc?export=download&id=1ZOyhYrTczLDVSO7wJzKoEghiYm9yDrhM" alt="1 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
-    -   In that case you need to Edit your Run/Debug configuration <img src="https://drive.google.com/uc?export=download&id=1m0gvqFMz0YqTaM28DKyZUiCUHWRpwOdC" alt="2 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
-    -   Delete the existing configurations <img src="https://drive.google.com/uc?export=view&id=1TTSIbwhSlrqiTWfKpHvvODOQeIbXjixc" alt="3 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
 
+    -   This is the error that you may see <img src="readMeImgs/1.PNG" alt="1 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+    -   In that case you need to Edit your Run/Debug configuration <img src="readMeImgs/2.PNG" alt="2 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+    -   Delete the existing configurations <img src="readMeImgs/3.png" alt="3 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+
+    -   Click on Edit configuration template <img src="readMeImgs/4.png" alt="4 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+
+    -   Navigate to TestNG > Configuration > Listeners <img src="readMeImgs/5.PNG" alt="5 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+    -   Type com.shaft.tools.\* into your search box to find the required listeners and add them one by one <img src="readMeImgs/5.png" alt="5 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+    -   This is the desired output for your listeners configuration <img src="readMeImgs/6.PNG" alt="6 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+    -   Success! <img src="readMeImgs/7.PNG" alt="7 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
     -   Click on Edit configuration template <img src="https://drive.google.com/uc?export=download&id=1wwBFObeWE6Nr-yo2t8qUNWbL5VeSdOJJ" alt="4 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
 
     -   Navigate to TestNG > Configuration > Listeners <img src="https://drive.google.com/uc?export=download&id=1-WqbA2EPvMXX55Dr7pnQLUtnZ4OWwfAN" alt="5 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
     -   Type com.shaft.tools.\* into your search box to find the required listeners and add them one by one <img src="https://drive.google.com/uc?export=download&id=17lykJyCaCTYgnmZY0NBzfWxWLQGzxOyU" alt="4 of 6" style="display:block; margin-left:auto; margin-right:auto;"/>
     -   This is the desired output for your listeners configuration <img src="https://drive.google.com/uc?export=download&id=1h047bFULAzItLr2yJ_LNnIToJjRttUDX" alt="6 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
     -   Success! <img src="https://drive.google.com/uc?export=download&id=1TiFuFW2s2hozOtkM9t-ZBWbOEdQssV6g" alt="7 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
+
