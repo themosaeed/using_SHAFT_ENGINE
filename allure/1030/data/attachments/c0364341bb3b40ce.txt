@@ -1,0 +1,433 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210902]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution:	[1 out of 23] test cases in the current suite
+Test Method:		[tests.cli.demo.cliTest.sampleTestCase]
+################################################################################################################################################
+[ReportManager] Attempting to perform the following command locally. Command: [ls] @14-10-2021 12:48:59.0212 PM
+[ReportManager] Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: "localHost" | Command: "ls" | Exit Status: "0"]. @14-10-2021 12:48:59.0228 PM
+[ReportManager] Successfully created attachment [Terminal Action Actual Result - Command Log] @14-10-2021 12:48:59.0236 PM
+[ReportManager] Assertion Passed: Demoing local terminal actions @14-10-2021 12:48:59.0251 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [pom.xml] and Actual [LICENSE
+README.md
+allure-results
+docker-compose_native.yml
+docker-compose_zalenium.yml
+extent-reports
+pom.xml
+readMeImgs
+src
+target]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:48:59.0251 P
+
+################################################################################################################################################
+Starting Execution:	[2 out of 23] test cases in the current suite
+Test Method:		[tests.api.users.UserData.validateUserEmail]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @14-10-2021 12:49:02.0479 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @14-10-2021 12:49:02.0482 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:02.0482 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://jsonplaceholder.typicode.com/users" | Content Type: "*/*" | Response Time: "1167ms"]. @14-10-2021 12:49:03.0850 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @14-10-2021 12:49:03.0851 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @14-10-2021 12:49:04.0204 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:04.0205 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected Value] @14-10-2021 12:49:04.0206 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Value] @14-10-2021 12:49:04.0206 PM
+[ReportManager] API Action [GetResponseJSONValueAsList] successfully performed. With the following test data [$]. @14-10-2021 12:49:04.0234 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0276 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [email]. @14-10-2021 12:49:04.0304 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Sincere@april.biz] and Actual [Sincere@april.biz]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:04.0305 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0333 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0353 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0375 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0395 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0418 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0442 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0465 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0488 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @14-10-2021 12:49:04.0504 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:04.0540 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:04.0579 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:06.0172 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:06.0243 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:06.0359 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:07.0933 P
+
+################################################################################################################################################
+Starting Execution:	[3 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] Element Action [IsElementDisplayed] successfully performed. @14-10-2021 12:49:08.0176 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:08.0176 PM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @14-10-2021 12:49:08.0177 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:08.0389 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:08.0399 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:08.0414 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:08.0414 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:09.0188 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:09.0224 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:09.0341 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:10.0635 P
+
+################################################################################################################################################
+Starting Execution:	[4 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:10.0702 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:10.0702 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Google] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:10.0703 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:10.0878 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:10.0879 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:10.0888 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:10.0888 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:11.0605 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:11.0649 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:11.0725 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:12.0865 P
+
+################################################################################################################################################
+Starting Execution:	[5 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:13.0832 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:15.0540 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:15.0679 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:15.0680 PM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:15.0680 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:16.0070 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:16.0101 P
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx]. @14-10-2021 12:49:16.0940 PM
+[ReportManager] Successfully created attachment [Test Data - Excel] @14-10-2021 12:49:16.0940 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:16.0942 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:16.0942 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:17.0780 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:17.0806 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:17.0894 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:19.0046 P
+
+################################################################################################################################################
+Starting Execution:	[6 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] Element Action [IsElementDisplayed] successfully performed. @14-10-2021 12:49:19.0174 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:19.0175 PM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @14-10-2021 12:49:19.0175 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:19.0342 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:19.0351 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:19.0361 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:19.0361 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:19.0681 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:19.0716 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:19.0783 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:20.0851 P
+
+################################################################################################################################################
+Starting Execution:	[7 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:20.0923 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:20.0924 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Google] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:20.0924 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:21.0089 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:21.0091 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:21.0093 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:21.0093 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:21.0399 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:21.0428 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:21.0492 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:22.0522 P
+
+################################################################################################################################################
+Starting Execution:	[8 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:23.0441 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:24.0938 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:25.0064 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:25.0065 PM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:25.0065 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:25.0348 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:25.0351 P
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx]. @14-10-2021 12:49:25.0408 PM
+[ReportManager] Successfully created attachment [Test Data - Excel] @14-10-2021 12:49:25.0408 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:25.0410 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:25.0410 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:25.0766 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:25.0791 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:25.0894 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:26.0915 P
+
+################################################################################################################################################
+Starting Execution:	[9 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_E_Search_PageObjectModel_Traditional_SHAFTAssertions_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:26.0941 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_E_Search_PageObjectModel_Traditional_SHAFTAssertions_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:26.0942 PM
+[ReportManager] File Action [ReadFromImageFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/DynamicObjectRepository/tests_gui_google_E_Search_PageObjectModel_Traditional_SHAFTAssertions_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:26.0942 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_E_Search_PageObjectModel_Traditional_SHAFTAssertions_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:27.0202 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_E_Search_PageObjectModel_Traditional_SHAFTAssertions_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:27.0203 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:27.0698 PM
+[ReportManager] Successfully identified the element using AI; OpenCV. @14-10-2021 12:49:27.0718 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:27.0719 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Reference Screenshot] @14-10-2021 12:49:27.0720 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Screenshot] @14-10-2021 12:49:27.0720 PM
+[ReportManager] Assertion [ValidateElementMatches] PASSED. Expected [Element should match the reference screenshot] and Actual [TRUE]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE]. @14-10-2021 12:49:27.0720 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:27.0885 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:27.0886 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:27.0888 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:27.0888 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:28.0183 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:28.0215 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:28.0312 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:29.0280 P
+
+################################################################################################################################################
+Starting Execution:	[10 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:29.0338 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:29.0648 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215769427_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @14-10-2021 12:49:29.0654 PM
+[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:29.0655 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:29.0817 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:29.0817 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:29.0838 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:29.0838 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:30.0226 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:30.0253 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:30.0322 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:31.0372 P
+
+################################################################################################################################################
+Starting Execution:	[11 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:32.0259 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:33.0701 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:33.0840 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:34.0127 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:34.0234 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215774126_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @14-10-2021 12:49:34.0243 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:34.0243 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:34.0526 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:34.0537 P
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx]. @14-10-2021 12:49:34.0572 PM
+[ReportManager] Successfully created attachment [Test Data - Excel] @14-10-2021 12:49:34.0572 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:34.0573 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:34.0574 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:34.0906 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:34.0922 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:35.0005 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:36.0014 P
+
+################################################################################################################################################
+Starting Execution:	[12 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_G_Search_PageObjectModel_ThreadSafe_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:36.0017 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_G_Search_PageObjectModel_ThreadSafe_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:36.0017 PM
+[ReportManager] File Action [ReadFromImageFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/DynamicObjectRepository/tests_gui_google_G_Search_PageObjectModel_ThreadSafe_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:36.0018 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_G_Search_PageObjectModel_ThreadSafe_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:36.0256 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_G_Search_PageObjectModel_ThreadSafe_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:36.0256 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:36.0257 PM
+[ReportManager] Successfully identified the element using AI; OpenCV. @14-10-2021 12:49:36.0260 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:36.0260 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Reference Screenshot] @14-10-2021 12:49:36.0261 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Screenshot] @14-10-2021 12:49:36.0261 PM
+[ReportManager] Assertion [ValidateElementMatches] PASSED. Expected [Element should match the reference screenshot] and Actual [TRUE]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE]. @14-10-2021 12:49:36.0261 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:36.0416 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:36.0417 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:36.0421 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:36.0421 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:36.0782 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:36.0799 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:36.0856 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:37.0842 P
+
+################################################################################################################################################
+Starting Execution:	[13 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:37.0893 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:38.0043 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215777976_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @14-10-2021 12:49:38.0044 PM
+[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:38.0044 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:38.0206 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:38.0207 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:38.0210 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:38.0210 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:38.0479 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:38.0502 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:38.0582 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:39.0606 P
+
+################################################################################################################################################
+Starting Execution:	[14 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:40.0444 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:41.0913 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:42.0038 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:42.0266 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:42.0346 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215782266_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @14-10-2021 12:49:42.0348 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:42.0348 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:42.0624 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:42.0627 P
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/Google/SimpleSearch.xlsx]. @14-10-2021 12:49:42.0664 PM
+[ReportManager] Successfully created attachment [Test Data - Excel] @14-10-2021 12:49:42.0664 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:42.0666 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:42.0666 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:42.0976 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:42.0999 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:43.0053 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:44.0015 P
+
+################################################################################################################################################
+Starting Execution:	[15 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_F_Search_PageObjectModel_Fluent_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:44.0021 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_F_Search_PageObjectModel_Fluent_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:44.0021 PM
+[ReportManager] File Action [ReadFromImageFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/DynamicObjectRepository/tests_gui_google_F_Search_PageObjectModel_Fluent_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:44.0022 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_F_Search_PageObjectModel_Fluent_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:44.0265 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_F_Search_PageObjectModel_Fluent_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:44.0265 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:44.0266 PM
+[ReportManager] Successfully identified the element using AI; OpenCV. @14-10-2021 12:49:44.0269 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:44.0270 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Reference Screenshot] @14-10-2021 12:49:44.0270 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Screenshot] @14-10-2021 12:49:44.0271 PM
+[ReportManager] Assertion [ValidateElementMatches] PASSED. Expected [Element should match the reference screenshot] and Actual [TRUE]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE]. @14-10-2021 12:49:44.0271 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:44.0432 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:44.0432 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:44.0436 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:44.0436 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:44.0733 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:44.0747 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:44.0804 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:45.0782 P
+
+################################################################################################################################################
+Starting Execution:	[16 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:45.0826 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:45.0945 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215785902_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @14-10-2021 12:49:45.0946 PM
+[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:45.0946 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:46.0107 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:46.0108 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:46.0110 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:46.0111 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:46.0453 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:46.0467 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:46.0520 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:47.0472 P
+
+################################################################################################################################################
+Starting Execution:	[17 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:48.0299 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:49.0948 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:50.0081 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:50.0279 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:50.0355 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215790279_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @14-10-2021 12:49:50.0356 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:50.0357 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:50.0622 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:50.0628 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:50.0633 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:50.0633 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:50.0926 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:50.0938 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:51.0008 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:52.0126 P
+
+################################################################################################################################################
+Starting Execution:	[18 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:52.0130 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:52.0131 PM
+[ReportManager] File Action [ReadFromImageFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/test/resources/DynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:52.0131 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:52.0398 PM
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/test/resources/DynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @14-10-2021 12:49:52.0399 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:52.0399 PM
+[ReportManager] Successfully identified the element using AI; OpenCV. @14-10-2021 12:49:52.0401 PM
+[ReportManager] Assertion Passed: Asserting that the Google logo is displayed @14-10-2021 12:49:52.0402 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Reference Screenshot] @14-10-2021 12:49:52.0402 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Screenshot] @14-10-2021 12:49:52.0403 PM
+[ReportManager] Assertion [ValidateElementMatches] PASSED. Expected [Element should match the reference screenshot] and Actual [TRUE]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE]. @14-10-2021 12:49:52.0403 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:52.0554 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:52.0555 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:52.0557 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:52.0558 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:52.0867 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:52.0882 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:52.0951 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:53.0933 P
+
+################################################################################################################################################
+Starting Execution:	[19 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @14-10-2021 12:49:53.0990 PM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @14-10-2021 12:49:54.0109 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215794067_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @14-10-2021 12:49:54.0110 PM
+[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-10-2021 12:49:54.0110 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:54.0268 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:54.0269 P
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-10-2021 12:49:54.0272 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @14-10-2021 12:49:54.0272 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @14-10-2021 12:49:54.0548 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @14-10-2021 12:49:54.0565 PM
+[ReportManager] Initial URL: [data:,] @14-10-2021 12:49:54.0622 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @14-10-2021 12:49:55.0617 P
+
+################################################################################################################################################
+Starting Execution:	[20 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @14-10-2021 12:49:56.0489 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @14-10-2021 12:49:58.0070 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. @14-10-2021 12:49:58.0179 PM
+[ReportManager] Loaded Shared OpenCV @14-10-2021 12:49:58.0398 PM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @14-10-2021 12:49:58.0470 PM
+[ReportManager] Successfully created attachment [Screenshot - 1634215798398_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @14-10-2021 12:49:58.0472 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT_ENGINE is a Test Automation Engine that ... - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @14-10-2021 12:49:58.0472 P
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @14-10-2021 12:49:58.0738 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @14-10-2021 12:49:58.0741 P
+
+
+
+################################################################################################################################################
+Starting Execution:	[21 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[22 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[23 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @14-10-2021 12:50:01.0872 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210902]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
