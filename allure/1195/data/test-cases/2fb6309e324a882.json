@@ -1,0 +1,520 @@
+{
+  "uid" : "2fb6309e324a882",
+  "name" : "validateUserEmail",
+  "fullName" : "tests.api.users.UserData.validateUserEmail",
+  "historyId" : "9b37543636253a254d75213170a808d5",
+  "time" : {
+    "start" : 1637544667272,
+    "stop" : 1637544671955,
+    "duration" : 4683
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637544666113,
+      "stop" : 1637544667135,
+      "duration" : 1022
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637544666297,
+        "stop" : 1637544666299,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "82b2bb89876be765",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "82b2bb89876be765.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "d6aac0e1e2f9c609",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "d6aac0e1e2f9c609.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Evaluating the actual response status code against the expected one...",
+      "time" : {
+        "start" : 1637544670389,
+        "stop" : 1637544670397,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Evaluating the actual response status code against the expected one..."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://jsonplaceholder.typicode.com/users\" | Content Type: \"*/*\" | Response Time: \"1204ms\"].",
+      "time" : {
+        "start" : 1637544671529,
+        "stop" : 1637544671775,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9098e87b5cbb0af",
+        "name" : "Attachment: API Request - Specifications",
+        "source" : "a9098e87b5cbb0af.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "7bb11dfee86873bc",
+        "name" : "Attachment: API Response - JSON Body",
+        "source" : "7bb11dfee86873bc.json",
+        "type" : "text/json",
+        "size" : 5645
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://jsonplaceholder.typicode.com/users\" | Content Type: \"*/*\" | Response Time: \"1204ms\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[API Request, Specifications, Headers:\n_______________\n\nContent-Type=*/*\n\n], null, [API Response, JSON Body, java.io.ByteArrayInputStream@69d6fe75]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateEquals] PASSED. Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1637544671782,
+        "stop" : 1637544671783,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e15d1f693976a9ed",
+        "name" : "Attachment: Validation Test Data - Expected Value",
+        "source" : "e15d1f693976a9ed.txt",
+        "type" : "text/plain",
+        "size" : 13
+      }, {
+        "uid" : "e20630a12246e2fe",
+        "name" : "Attachment: Validation Test Data - Actual Value",
+        "source" : "e20630a12246e2fe.txt",
+        "type" : "text/plain",
+        "size" : 5645
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Validation Test Data, Expected Value, Leanne Graham], [Validation Test Data, Actual Value, [\n  {\n    \"id\": 1,\n    \"name\": \"Leanne Graham\",\n    \"username\": \"Bret\",\n    \"email\": \"Sincere@april.biz\",\n    \"address\": {\n      \"street\": \"Kulas Light\",\n      \"suite\": \"Apt. 556\",\n      \"city\": \"Gwenborough\",\n      \"zipcode\": \"92998-3874\",\n      \"geo\": {\n        \"lat\": \"-37.3159\",\n        \"lng\": \"81.1496\"\n      }\n    },\n    \"phone\": \"1-770-736-8031 x56442\",\n    \"website\": \"hildegard.org\",\n    \"company\": {\n      \"name\": \"Romaguera-Crona\",\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\n      \"bs\": \"harness real-time e-markets\"\n    }\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Ervin Howell\",\n    \"username\": \"Antonette\",\n    \"email\": \"Shanna@melissa.tv\",\n    \"address\": {\n      \"street\": \"Victor Plains\",\n      \"suite\": \"Suite 879\",\n      \"city\": \"Wisokyburgh\",\n      \"zipcode\": \"90566-7771\",\n      \"geo\": {\n        \"lat\": \"-43.9509\",\n        \"lng\": \"-34.4618\"\n      }\n    },\n    \"phone\": \"010-692-6593 x09125\",\n    \"website\": \"anastasia.net\",\n    \"company\": {\n      \"name\": \"Deckow-Crist\",\n      \"catchPhrase\": \"Proactive didactic contingency\",\n      \"bs\": \"synergize scalable supply-chains\"\n    }\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Clementine Bauch\",\n    \"username\": \"Samantha\",\n    \"email\": \"Nathan@yesenia.net\",\n    \"address\": {\n      \"street\": \"Douglas Extension\",\n      \"suite\": \"Suite 847\",\n      \"city\": \"McKenziehaven\",\n      \"zipcode\": \"59590-4157\",\n      \"geo\": {\n        \"lat\": \"-68.6102\",\n        \"lng\": \"-47.0653\"\n      }\n    },\n    \"phone\": \"1-463-123-4447\",\n    \"website\": \"ramiro.info\",\n    \"company\": {\n      \"name\": \"Romaguera-Jacobson\",\n      \"catchPhrase\": \"Face to face bifurcated interface\",\n      \"bs\": \"e-enable strategic applications\"\n    }\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Patricia Lebsack\",\n    \"username\": \"Karianne\",\n    \"email\": \"Julianne.OConner@kory.org\",\n    \"address\": {\n      \"street\": \"Hoeger Mall\",\n      \"suite\": \"Apt. 692\",\n      \"city\": \"South Elvis\",\n      \"zipcode\": \"53919-4257\",\n      \"geo\": {\n        \"lat\": \"29.4572\",\n        \"lng\": \"-164.2990\"\n      }\n    },\n    \"phone\": \"493-170-9623 x156\",\n    \"website\": \"kale.biz\",\n    \"company\": {\n      \"name\": \"Robel-Corkery\",\n      \"catchPhrase\": \"Multi-tiered zero tolerance productivity\",\n      \"bs\": \"transition cutting-edge web services\"\n    }\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Chelsey Dietrich\",\n    \"username\": \"Kamren\",\n    \"email\": \"Lucio_Hettinger@annie.ca\",\n    \"address\": {\n      \"street\": \"Skiles Walks\",\n      \"suite\": \"Suite 351\",\n      \"city\": \"Roscoeview\",\n      \"zipcode\": \"33263\",\n      \"geo\": {\n        \"lat\": \"-31.8129\",\n        \"lng\": \"62.5342\"\n      }\n    },\n    \"phone\": \"(254)954-1289\",\n    \"website\": \"demarco.info\",\n    \"company\": {\n      \"name\": \"Keebler LLC\",\n      \"catchPhrase\": \"User-centric fault-tolerant solution\",\n      \"bs\": \"revolutionize end-to-end systems\"\n    }\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Mrs. Dennis Schulist\",\n    \"username\": \"Leopoldo_Corkery\",\n    \"email\": \"Karley_Dach@jasper.info\",\n    \"address\": {\n      \"street\": \"Norberto Crossing\",\n      \"suite\": \"Apt. 950\",\n      \"city\": \"South Christy\",\n      \"zipcode\": \"23505-1337\",\n      \"geo\": {\n        \"lat\": \"-71.4197\",\n        \"lng\": \"71.7478\"\n      }\n    },\n    \"phone\": \"1-477-935-8478 x6430\",\n    \"website\": \"ola.org\",\n    \"company\": {\n      \"name\": \"Considine-Lockman\",\n      \"catchPhrase\": \"Synchronised bottom-line interface\",\n      \"bs\": \"e-enable innovative applications\"\n    }\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Kurtis Weissnat\",\n    \"username\": \"Elwyn.Skiles\",\n    \"email\": \"Telly.Hoeger@billy.biz\",\n    \"address\": {\n      \"street\": \"Rex Trail\",\n      \"suite\": \"Suite 280\",\n      \"city\": \"Howemouth\",\n      \"zipcode\": \"58804-1099\",\n      \"geo\": {\n        \"lat\": \"24.8918\",\n        \"lng\": \"21.8984\"\n      }\n    },\n    \"phone\": \"210.067.6132\",\n    \"website\": \"elvis.io\",\n    \"company\": {\n      \"name\": \"Johns Group\",\n      \"catchPhrase\": \"Configurable multimedia task-force\",\n      \"bs\": \"generate enterprise e-tailers\"\n    }\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Nicholas Runolfsdottir V\",\n    \"username\": \"Maxime_Nienow\",\n    \"email\": \"Sherwood@rosamond.me\",\n    \"address\": {\n      \"street\": \"Ellsworth Summit\",\n      \"suite\": \"Suite 729\",\n      \"city\": \"Aliyaview\",\n      \"zipcode\": \"45169\",\n      \"geo\": {\n        \"lat\": \"-14.3990\",\n        \"lng\": \"-120.7677\"\n      }\n    },\n    \"phone\": \"586.493.6943 x140\",\n    \"website\": \"jacynthe.com\",\n    \"company\": {\n      \"name\": \"Abernathy Group\",\n      \"catchPhrase\": \"Implemented secondary concept\",\n      \"bs\": \"e-enable extensible e-tailers\"\n    }\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Glenna Reichert\",\n    \"username\": \"Delphine\",\n    \"email\": \"Chaim_McDermott@dana.io\",\n    \"address\": {\n      \"street\": \"Dayna Park\",\n      \"suite\": \"Suite 449\",\n      \"city\": \"Bartholomebury\",\n      \"zipcode\": \"76495-3109\",\n      \"geo\": {\n        \"lat\": \"24.6463\",\n        \"lng\": \"-168.8889\"\n      }\n    },\n    \"phone\": \"(775)976-6794 x41206\",\n    \"website\": \"conrad.com\",\n    \"company\": {\n      \"name\": \"Yost and Sons\",\n      \"catchPhrase\": \"Switchable contextually-based project\",\n      \"bs\": \"aggregate real-time technologies\"\n    }\n  },\n  {\n    \"id\": 10,\n    \"name\": \"Clementina DuBuque\",\n    \"username\": \"Moriah.Stanton\",\n    \"email\": \"Rey.Padberg@karina.biz\",\n    \"address\": {\n      \"street\": \"Kattie Turnpike\",\n      \"suite\": \"Suite 198\",\n      \"city\": \"Lebsackbury\",\n      \"zipcode\": \"31428-2261\",\n      \"geo\": {\n        \"lat\": \"-38.2386\",\n        \"lng\": \"57.2232\"\n      }\n    },\n    \"phone\": \"024-648-3804\",\n    \"website\": \"ambrose.net\",\n    \"company\": {\n      \"name\": \"Hoeger LLC\",\n      \"catchPhrase\": \"Centralized empowering task-force\",\n      \"bs\": \"target end-to-end models\"\n    }\n  }\n]]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateEquals] PASSED. Expected [Sincere@april.biz] and Actual [Sincere@april.biz]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1637544671830,
+        "stop" : 1637544671830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [Sincere@april.biz] and Actual [Sincere@april.biz]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4201e0d0491cabaa",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: validateUserEmail",
+      "source" : "4201e0d0491cabaa.txt",
+      "type" : "text/plain",
+      "size" : 3618
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1637544718782,
+      "stop" : 1637544719023,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1637544718782,
+        "stop" : 1637544718782,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "57"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1637544718791,
+        "stop" : 1637544718791,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "901651052efbba7b",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211122-013158",
+        "source" : "901651052efbba7b.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211122-013158, java.io.ByteArrayInputStream@4daa4a5a]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7371834017017e38",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211122-013158",
+      "source" : "7371834017017e38.txt",
+      "type" : "text/plain",
+      "size" : 29542
+    }, {
+      "uid" : "e9644ec46c48571b",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "e9644ec46c48571b.html",
+      "type" : "text/html",
+      "size" : 763615
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.api.users.UserData"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.api.users.UserData"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateUserEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.api.users.UserData"
+  }, {
+    "name" : "host",
+    "value" : "fv-az219-596"
+  }, {
+    "name" : "thread",
+    "value" : "4160@fv-az219-596.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 766,
+        "unknown" : 0,
+        "total" : 766
+      },
+      "items" : [ {
+        "uid" : "63a05f06bfca6877",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1194//#testresult/63a05f06bfca6877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637519812460,
+          "stop" : 1637519816802,
+          "duration" : 4342
+        }
+      }, {
+        "uid" : "57f92c1569af1bf8",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1193//#testresult/57f92c1569af1bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637498890246,
+          "stop" : 1637498894604,
+          "duration" : 4358
+        }
+      }, {
+        "uid" : "d19e15b1dbb9f6b7",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1192//#testresult/d19e15b1dbb9f6b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637476663095,
+          "stop" : 1637476666998,
+          "duration" : 3903
+        }
+      }, {
+        "uid" : "4e5c6957c83c2b9d",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1191//#testresult/4e5c6957c83c2b9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637458328593,
+          "stop" : 1637458333326,
+          "duration" : 4733
+        }
+      }, {
+        "uid" : "43ae32691a899166",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1190//#testresult/43ae32691a899166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637433382939,
+          "stop" : 1637433387231,
+          "duration" : 4292
+        }
+      }, {
+        "uid" : "ef3d16f972c408d9",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1189//#testresult/ef3d16f972c408d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637412456666,
+          "stop" : 1637412460391,
+          "duration" : 3725
+        }
+      }, {
+        "uid" : "27a082071b175942",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1188//#testresult/27a082071b175942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637390259893,
+          "stop" : 1637390263923,
+          "duration" : 4030
+        }
+      }, {
+        "uid" : "18655316cac0bafe",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1187//#testresult/18655316cac0bafe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637371725158,
+          "stop" : 1637371729759,
+          "duration" : 4601
+        }
+      }, {
+        "uid" : "a50d2040e5940949",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1186//#testresult/a50d2040e5940949",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637347062000,
+          "stop" : 1637347066524,
+          "duration" : 4524
+        }
+      }, {
+        "uid" : "b0cbe0b6d8b12ae9",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1185//#testresult/b0cbe0b6d8b12ae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637326162900,
+          "stop" : 1637326166817,
+          "duration" : 3917
+        }
+      }, {
+        "uid" : "ff278865b50264c3",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1184//#testresult/ff278865b50264c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303948827,
+          "stop" : 1637303953476,
+          "duration" : 4649
+        }
+      }, {
+        "uid" : "b8271141cc9d2622",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1183//#testresult/b8271141cc9d2622",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637285400955,
+          "stop" : 1637285404751,
+          "duration" : 3796
+        }
+      }, {
+        "uid" : "ee4e60961acf0f79",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1182//#testresult/ee4e60961acf0f79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637260630751,
+          "stop" : 1637260635189,
+          "duration" : 4438
+        }
+      }, {
+        "uid" : "bb80e5cf05ef8588",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1181//#testresult/bb80e5cf05ef8588",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637239865411,
+          "stop" : 1637239869317,
+          "duration" : 3906
+        }
+      }, {
+        "uid" : "a545d252f962f3ed",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1180//#testresult/a545d252f962f3ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637217510524,
+          "stop" : 1637217514058,
+          "duration" : 3534
+        }
+      }, {
+        "uid" : "3266671b1ffc7702",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1179//#testresult/3266671b1ffc7702",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637210874456,
+          "stop" : 1637210878559,
+          "duration" : 4103
+        }
+      }, {
+        "uid" : "35523b7f99cc32cf",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1178//#testresult/35523b7f99cc32cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637199044362,
+          "stop" : 1637199047687,
+          "duration" : 3325
+        }
+      }, {
+        "uid" : "a3a57c1fab4a0ef5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1176//#testresult/a3a57c1fab4a0ef5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637174044043,
+          "stop" : 1637174048078,
+          "duration" : 4035
+        }
+      }, {
+        "uid" : "55cfd5de1b3a3d9e",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1175//#testresult/55cfd5de1b3a3d9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637153619438,
+          "stop" : 1637153622894,
+          "duration" : 3456
+        }
+      }, {
+        "uid" : "22b7141545ca9e88",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1174//#testresult/22b7141545ca9e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637131211722,
+          "stop" : 1637131216076,
+          "duration" : 4354
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2fb6309e324a882.json",
+  "parameterValues" : [ ]
+}
