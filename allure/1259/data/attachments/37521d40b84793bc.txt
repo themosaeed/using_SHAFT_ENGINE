@@ -1,0 +1,507 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.4.20211202-BETA]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution:	[1 out of 23] test cases in the current suite
+Test Method:		[tests.api.users.UserData.validateUserEmail]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 01:35:39.0312 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 01:35:39.0321 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 01:35:39.0325 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://jsonplaceholder.typicode.com/users" | Content Type: "*/*" | Response Time: "930ms"]. @07-12-2021 01:35:40.0251 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 01:35:40.0252 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 01:35:40.0448 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected and Actual values are attached. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @07-12-2021 01:35:40.0454 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected Value] @07-12-2021 01:35:40.0455 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Value] @07-12-2021 01:35:40.0456 AM
+[ReportManager] API Action [GetResponseJSONValueAsList] successfully performed. With the following test data [$]. @07-12-2021 01:35:40.0476 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0500 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [email]. @07-12-2021 01:35:40.0520 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Sincere@april.biz] and Actual [Sincere@april.biz]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 01:35:40.0521 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0541 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0554 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0562 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0571 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0579 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0587 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0595 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0603 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [name]. @07-12-2021 01:35:40.0611 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:35:40.0705 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:35:40.0716 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:35:42.0387 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:35:42.0395 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:35:42.0532 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:35:44.0350 A
+
+################################################################################################################################################
+Starting Execution:	[2 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] File Action [DoesFileExist] successfully performed. With the following test data [File Path: "src/main/resources/dynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @07-12-2021 01:35:44.0378 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/main/resources/dynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @07-12-2021 01:35:44.0378 AM
+[ReportManager] File Action [ReadFromImageFile] successfully performed. With the following test data [File Path: "/home/runner/work/using_SHAFT_ENGINE/using_SHAFT_ENGINE/src/main/resources/dynamicObjectRepository/tests_gui_google_B_Search_FlatTest_SHAFT_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_By_xpath_img_id_hplogo_or_alt_Google.png"]. @07-12-2021 01:35:44.0378 AM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$902/0x00000008013c2290@403a2ed5 (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:33)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1466)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:543)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:245)
+com.shaft.validation.ValidationsHelper.validateElementMatches(ValidationsHelper.java:491)
+com.shaft.validation.Assertions.assertElementMatches(Assertions.java:756)
+tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed(B_Search_FlatTest_SHAFT.java:27)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='hplogo' or @alt='Google']"}
+  (Session info: headless chrome=81.0.4044.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'fv-az201-806', ip: '10.1.1.101', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1021-azure', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bf0787cd08f332f5c1c0b108b1dbda8b, findElement {using=xpath, value=//img[@id='hplogo' or @alt='Google']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /tmp/.com.google.Chrome.oIN3h3}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bf0787cd08f332f5c1c0b108b1d...}
+Session ID: bf0787cd08f332f5c1c0b108b1dbda8b
+jdk.internal.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:71)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:33)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1466)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:543)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:245)
+com.shaft.validation.ValidationsHelper.validateElementMatches(ValidationsHelper.java:491)
+com.shaft.validation.Assertions.assertElementMatches(Assertions.java:756)
+tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed(B_Search_FlatTest_SHAFT.java:27)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) @07-12-2021 01:36:09.0930 AM
+[ReportManager] Assertion Failed: Asserting that the Google logo is displayed @07-12-2021 01:36:10.0650 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Reference Screenshot] @07-12-2021 01:36:10.0651 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual Screenshot] @07-12-2021 01:36:10.0651 AM
+[ReportManager] Assertion [ValidateElementMatches] FAILED. Expected [Element should match the reference screenshot] and Actual [ELEMENT NOT FOUND]. Comparison Type [EXACT_OPENCV]. Validation Type [POSITIVE]. @07-12-2021 01:36:10.0652 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:10.0884 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:10.0893 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:36:10.0920 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:36:10.0920 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:36:11.0291 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:36:11.0291 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:36:11.0404 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:36:12.0918 A
+
+################################################################################################################################################
+Starting Execution:	[3 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @07-12-2021 01:36:12.0979 AM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @07-12-2021 01:36:13.0432 AM
+[ReportManager] Successfully created attachment [Screenshot - 1638840973222_navigateToGoogleHomeAndAssertPageTitle_ValidateBrowserAttribute_passed] @07-12-2021 01:36:13.0442 AM
+[ReportManager] Assertion [ValidateBrowserAttribute] PASSED. Expected [Value Should be 'Google' for the 'Title' attribute] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 01:36:13.0442 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:13.0651 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:13.0653 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:36:13.0664 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:36:13.0665 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:36:14.0025 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:36:14.0025 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:36:14.0107 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:36:15.0667 A
+
+################################################################################################################################################
+Starting Execution:	[4 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.B_Search_FlatTest_SHAFT.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @07-12-2021 01:36:16.0139 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @07-12-2021 01:36:17.0688 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT: Unified Test Automation Engine - GitHub]. @07-12-2021 01:36:17.0805 AM
+[ReportManager] Loaded Shared OpenCV @07-12-2021 01:36:18.0589 AM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @07-12-2021 01:36:18.0833 AM
+[ReportManager] Successfully created attachment [Screenshot - 1638840978177_searchForQueryAndAssertFirstResultTextIsCorrect_ValidateElementAttribute_failed] @07-12-2021 01:36:18.0840 AM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'MohabMohie' for the 'Text' attribute, element locator 'By.xpath: (//h1[contains(text(),'Search Result')]/following-sibling::div//a/h3)[1]'] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @07-12-2021 01:36:18.0840 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:19.0157 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:19.0162 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:36:19.0169 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:36:19.0170 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:36:19.0521 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:36:19.0529 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:36:19.0591 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:36:20.0993 A
+
+################################################################################################################################################
+Starting Execution:	[5 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+################################################################################################################################################
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$902/0x00000008013c2290@7546033d (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:41)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1470)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1518)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElementIgnoringVisibility(WebDriverElementActions.java:1320)
+com.shaft.gui.element.WebDriverElementActions.isElementDisplayed(WebDriverElementActions.java:815)
+com.shaft.gui.element.ElementActions.isElementDisplayed(ElementActions.java:404)
+objectModels.gui.google.Home.isGoogleLogoDisplayed(Home.java:33)
+tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed(C_Search_PageObjectModel_Traditional.java:30)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='hplogo' or @alt='Google']"}
+  (Session info: headless chrome=81.0.4044.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'fv-az201-806', ip: '10.1.1.101', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1021-azure', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8ce5fd64b1b79594078d3f3fda094746, findElement {using=xpath, value=//img[@id='hplogo' or @alt='Google']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /tmp/.com.google.Chrome.0DTzy5}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8ce5fd64b1b79594078d3f3fda0...}
+Session ID: 8ce5fd64b1b79594078d3f3fda094746
+jdk.internal.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:71)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:41)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1470)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1518)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElementIgnoringVisibility(WebDriverElementActions.java:1320)
+com.shaft.gui.element.WebDriverElementActions.isElementDisplayed(WebDriverElementActions.java:815)
+com.shaft.gui.element.ElementActions.isElementDisplayed(ElementActions.java:404)
+objectModels.gui.google.Home.isGoogleLogoDisplayed(Home.java:33)
+tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed(C_Search_PageObjectModel_Traditional.java:30)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) @07-12-2021 01:36:46.0500 AM
+[ReportManager] Element Action [IdentifyUniqueElement] failed. With the following test data [zero elements found matching this locator "By.xpath: //img[@id='hplogo' or @alt='Google']".]. @07-12-2021 01:36:46.0866 AM
+[ReportManager] Successfully created attachment [Screenshot - 1638841006724_navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed_IdentifyUniqueElement_failed] @07-12-2021 01:36:46.0868 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:47.0137 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:47.0140 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:36:47.0146 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:36:47.0148 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:36:47.0378 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:36:47.0379 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:36:47.0488 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:36:48.0867 A
+
+################################################################################################################################################
+Starting Execution:	[6 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.navigateToGoogleHomeAndAssertPageTitle]
+################################################################################################################################################
+[ReportManager] Browser Action [GetCurrentWindowTitle] successfully performed. With the following test data [Google]. @07-12-2021 01:36:48.0906 AM
+[ReportManager] Assertion Passed: Asserting that the page title is Google @07-12-2021 01:36:48.0907 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Google] and Actual [Google]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 01:36:48.0907 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:49.0132 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:49.0135 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-12-2021 01:36:49.0139 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @07-12-2021 01:36:49.0139 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @07-12-2021 01:36:49.0314 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @07-12-2021 01:36:49.0314 AM
+[ReportManager] Initial URL: [data:,] @07-12-2021 01:36:49.0381 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @07-12-2021 01:36:50.0809 A
+
+################################################################################################################################################
+Starting Execution:	[7 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.C_Search_PageObjectModel_Traditional.searchForQueryAndAssertFirstResultTextIsCorrect]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]. @07-12-2021 01:36:51.0245 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @07-12-2021 01:36:52.0513 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [SHAFT: Unified Test Automation Engine - GitHub]. @07-12-2021 01:36:52.0619 AM
+[ReportManager] Assertion Failed: Asserting that the correct first result is displayed @07-12-2021 01:36:52.0620 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [MohabMohie] and Actual [SHAFT: Unified Test Automation Engine - GitHub]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @07-12-2021 01:36:52.0620 A
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-12-2021 01:36:52.0901 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-12-2021 01:36:52.0906 A
+
+
+
+################################################################################################################################################
+Starting Execution:	[8 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[9 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[10 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+[ReportManager] An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory). @07-12-2021 01:37:11.0746 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - java.io.FileNotFoundException] @07-12-2021 01:37:11.0746 AM
+[ReportManager] Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx]. @07-12-2021 01:37:11.0748 A
+
+
+################################################################################################################################################
+Starting Execution:	[11 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[12 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[13 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+[ReportManager] An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory). @07-12-2021 01:37:11.0806 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - java.io.FileNotFoundException] @07-12-2021 01:37:11.0806 AM
+[ReportManager] Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx]. @07-12-2021 01:37:11.0807 A
+
+
+################################################################################################################################################
+Starting Execution:	[14 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[15 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[16 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.D_Search_PageObjectModel_Traditional_DataDriven.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+[ReportManager] An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory). @07-12-2021 01:37:11.0837 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - java.io.FileNotFoundException] @07-12-2021 01:37:11.0837 AM
+[ReportManager] Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx]. @07-12-2021 01:37:11.0838 A
+
+
+################################################################################################################################################
+Starting Execution:	[17 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[18 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[19 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.G_Search_PageObjectModel_ThreadSafe.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+[ReportManager] An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory). @07-12-2021 01:37:11.0876 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - java.io.FileNotFoundException] @07-12-2021 01:37:11.0876 AM
+[ReportManager] Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx]. @07-12-2021 01:37:11.0876 A
+
+
+################################################################################################################################################
+Starting Execution:	[20 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[21 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.navigateToGoogleHomeAndAssertPageTitle]
+###############################################################################################################################################
+
+
+
+################################################################################################################################################
+Starting Execution:	[22 out of 23] test cases in the current suite
+Test Method:		[tests.gui.google.F_Search_PageObjectModel_Fluent.searchForQueryAndAssertFirstResultTextIsCorrect]
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Starting Execution:	[23 out of 23] test cases in the current suite
+Test Method:		[tests.cli.demo.cliTest.sampleTestCase]
+################################################################################################################################################
+[ReportManager] Attempting to perform the following command locally. Command: [ls] @07-12-2021 01:37:11.0916 AM
+[ReportManager] Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: "localHost" | Command: "ls" | Exit Status: "0"]. @07-12-2021 01:37:11.0921 AM
+[ReportManager] Successfully created attachment [Terminal Action Actual Result - Command Log] @07-12-2021 01:37:11.0921 AM
+[ReportManager] Assertion Passed: Demoing local terminal actions @07-12-2021 01:37:11.0922 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [pom.xml] and Actual [LICENSE
+README.md
+allure-results
+docker-compose_native.yml
+docker-compose_zalenium.yml
+extent-reports
+pom.xml
+readMeImgs
+src
+target]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @07-12-2021 01:37:11.0922 A
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @07-12-2021 01:37:11.0947 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.4.20211202-BETA]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
