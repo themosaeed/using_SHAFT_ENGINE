@@ -1,0 +1,260 @@
+{
+  "uid" : "3f0cdb035022f20f",
+  "name" : "navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed",
+  "fullName" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed",
+  "historyId" : "7431e87dda04bcbb04d2d3b07ce977e2",
+  "time" : {
+    "start" : 1647222556015,
+    "stop" : 1647222556017,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+  "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1647222526948,
+      "stop" : 1647222530171,
+      "duration" : 3223
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1647222530172,
+      "stop" : 1647222556002,
+      "duration" : 25830
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+    "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1647222514399,
+      "stop" : 1647222515286,
+      "duration" : 887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1647222514536,
+        "stop" : 1647222514538,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "db1b1fa046eb7524",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "db1b1fa046eb7524.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "8cad45524e4ec65b",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "8cad45524e4ec65b.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+    "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az399-79', ip: '10.1.1.41', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49b27cdee0a3cc2f",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed",
+      "source" : "49b27cdee0a3cc2f.txt",
+      "type" : "text/plain",
+      "size" : 481
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1647222556019,
+      "stop" : 1647222556019,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1647222569801,
+      "stop" : 1647222570063,
+      "duration" : 262
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1647222569801,
+        "stop" : 1647222569801,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "57"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1647222569809,
+        "stop" : 1647222569810,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb94394484e235cb",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220314-014929",
+        "source" : "bb94394484e235cb.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220314-014929, java.io.ByteArrayInputStream@4913778f]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7a53790409d836d7",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220314-014929",
+      "source" : "7a53790409d836d7.txt",
+      "type" : "text/plain",
+      "size" : 30238
+    }, {
+      "uid" : "4dd6b09177d2cb07",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "4dd6b09177d2cb07.html",
+      "type" : "text/html",
+      "size" : 736786
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "host",
+    "value" : "fv-az399-79"
+  }, {
+    "name" : "thread",
+    "value" : "3223@fv-az399-79.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f0cdb035022f20f.json",
+  "parameterValues" : [ ]
+}
