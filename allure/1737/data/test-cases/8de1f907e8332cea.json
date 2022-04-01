@@ -1,0 +1,667 @@
+{
+  "uid" : "8de1f907e8332cea",
+  "name" : "beforeClass",
+  "fullName" : "tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.beforeClass",
+  "historyId" : "5c813e64cfaa2d112d8e34ee65ede724",
+  "time" : {
+    "start" : 1648838429336,
+    "stop" : 1648838429337,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+  "statusTrace" : "java.lang.AssertionError: Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.tools.io.ExcelFileManager.<init>(ExcelFileManager.java:48)\n\tat tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.beforeClass(E_Search_PageObjectModel_Traditional_SHAFTAssertions.java:47)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1648838393686,
+      "stop" : 1648838394574,
+      "duration" : 888
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1648838393854,
+        "stop" : 1648838393860,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1648838394572,
+        "stop" : 1648838394573,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9636559698f13d4f",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "9636559698f13d4f.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e7604b4c80dd54c0",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "e7604b4c80dd54c0.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "a28b3a59ed203d24",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "a28b3a59ed203d24.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1648838429330,
+      "stop" : 1648838429335,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "failed",
+    "statusMessage" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+    "statusTrace" : "java.lang.AssertionError: Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.tools.io.ExcelFileManager.<init>(ExcelFileManager.java:48)\n\tat tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.beforeClass(E_Search_PageObjectModel_Traditional_SHAFTAssertions.java:47)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory).",
+      "time" : {
+        "start" : 1648838429331,
+        "stop" : 1648838429332,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4aaf230300cb8ad",
+        "name" : "Attachment: Exception Stack Trace - java.io.FileNotFoundException",
+        "source" : "d4aaf230300cb8ad.txt",
+        "type" : "text/plain",
+        "size" : 2869
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "29"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: src/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory)."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, java.io.FileNotFoundException, java.io.FileNotFoundException:\nsrc/test/resources/testDataFiles/Google/SimpleSearch.xlsx (No such file or directory)\njava.base/java.io.FileInputStream.open0(Native Method)\njava.base/java.io.FileInputStream.open(FileInputStream.java:216)\njava.base/java.io.FileInputStream.<init>(FileInputStream.java:157)\njava.base/java.io.FileInputStream.<init>(FileInputStream.java:111)\ncom.shaft.tools.io.ExcelFileManager.<init>(ExcelFileManager.java:41)\ntests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions.beforeClass(E_Search_PageObjectModel_Traditional_SHAFTAssertions.java:47)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\norg.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:808)\norg.testng.TestRunner.run(TestRunner.java:603)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:429)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+      "time" : {
+        "start" : 1648838429332,
+        "stop" : 1648838429335,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "31"
+      }, {
+        "name" : "logText",
+        "value" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1648838393686,
+      "stop" : 1648838394574,
+      "duration" : 888
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1648838393854,
+        "stop" : 1648838393860,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1648838394572,
+        "stop" : 1648838394573,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9636559698f13d4f",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "9636559698f13d4f.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e7604b4c80dd54c0",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "e7604b4c80dd54c0.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "a28b3a59ed203d24",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "a28b3a59ed203d24.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1648838442706,
+      "stop" : 1648838442989,
+      "duration" : 283
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1648838442707,
+        "stop" : 1648838442707,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1648838442724,
+        "stop" : 1648838442724,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cd958ebb156134a",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220401-184042",
+        "source" : "4cd958ebb156134a.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "59"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220401-184042, java.io.ByteArrayInputStream@23e9526b]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7644cc65e93edbf",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220401-184042",
+      "source" : "7644cc65e93edbf.txt",
+      "type" : "text/plain",
+      "size" : 30256
+    }, {
+      "uid" : "f2949946b82da1d2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "f2949946b82da1d2.html",
+      "type" : "text/html",
+      "size" : 762583
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1648838442706,
+      "stop" : 1648838442989,
+      "duration" : 283
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1648838442707,
+        "stop" : 1648838442707,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1648838442724,
+        "stop" : 1648838442724,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cd958ebb156134a",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220401-184042",
+        "source" : "4cd958ebb156134a.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "59"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220401-184042, java.io.ByteArrayInputStream@23e9526b]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7644cc65e93edbf",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220401-184042",
+      "source" : "7644cc65e93edbf.txt",
+      "type" : "text/plain",
+      "size" : 30256
+    }, {
+      "uid" : "f2949946b82da1d2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "f2949946b82da1d2.html",
+      "type" : "text/html",
+      "size" : 762583
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "beforeClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.google.E_Search_PageObjectModel_Traditional_SHAFTAssertions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az292-526"
+  }, {
+    "name" : "thread",
+    "value" : "3383@fv-az292-526.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 79,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 79
+      },
+      "items" : [ {
+        "uid" : "6c88704ca92807b6",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1736//#testresult/6c88704ca92807b6",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648817971094,
+          "stop" : 1648817971094,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d6717274280067d",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1735//#testresult/5d6717274280067d",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648795289538,
+          "stop" : 1648795289538,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4b369103e88dff6b",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1734//#testresult/4b369103e88dff6b",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648779852219,
+          "stop" : 1648779852223,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "abdff2a959913d12",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1732//#testresult/abdff2a959913d12",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648751945612,
+          "stop" : 1648751945612,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d85e089d4d7cf4ad",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1731//#testresult/d85e089d4d7cf4ad",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648731753876,
+          "stop" : 1648731753877,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "44b32fab96b64107",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1730//#testresult/44b32fab96b64107",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648708836602,
+          "stop" : 1648708836602,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b01fab84d75b997",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1729//#testresult/8b01fab84d75b997",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648692100359,
+          "stop" : 1648692100359,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f1e3fbaeb1623d88",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1728//#testresult/f1e3fbaeb1623d88",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648665559630,
+          "stop" : 1648665559630,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "75378078cb2eb142",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1727//#testresult/75378078cb2eb142",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648645291220,
+          "stop" : 1648645291220,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e2718eb1aada7fa",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1726//#testresult/4e2718eb1aada7fa",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648622346525,
+          "stop" : 1648622346525,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "56c2dfa9accc706",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1725//#testresult/56c2dfa9accc706",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648605945823,
+          "stop" : 1648605945823,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "793304c1eb98a742",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1724//#testresult/793304c1eb98a742",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648579110473,
+          "stop" : 1648579110473,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "330f8c3eb3144a28",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1723//#testresult/330f8c3eb3144a28",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648558752224,
+          "stop" : 1648558752224,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc41268236fb04ea",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1722//#testresult/fc41268236fb04ea",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648536037185,
+          "stop" : 1648536037185,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "122ed71d1d6554d5",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1721//#testresult/122ed71d1d6554d5",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648519542615,
+          "stop" : 1648519542615,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9cbde44dd09ef93f",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1720//#testresult/9cbde44dd09ef93f",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648492727646,
+          "stop" : 1648492727646,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f5d51dd75a3c1103",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1719//#testresult/f5d51dd75a3c1103",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648472448261,
+          "stop" : 1648472448261,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ea05d82eedbca1bb",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1718//#testresult/ea05d82eedbca1bb",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648449611593,
+          "stop" : 1648449611593,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e2b479c5c3a017c6",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1717//#testresult/e2b479c5c3a017c6",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648433213503,
+          "stop" : 1648433213503,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3df4e8bb99fc76",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1716//#testresult/3df4e8bb99fc76",
+        "status" : "failed",
+        "statusDetails" : "Couldn't find the desired file. [src/test/resources/testDataFiles/Google/SimpleSearch.xlsx].",
+        "time" : {
+          "start" : 1648406214459,
+          "stop" : 1648406214459,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8de1f907e8332cea.json",
+  "parameterValues" : [ ]
+}
