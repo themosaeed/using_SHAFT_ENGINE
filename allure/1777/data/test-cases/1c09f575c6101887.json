@@ -1,0 +1,614 @@
+{
+  "uid" : "1c09f575c6101887",
+  "name" : "beforeMethod",
+  "fullName" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod",
+  "historyId" : "fcf4f8ea3e3f4c694c26093cf5b125e8",
+  "time" : {
+    "start" : 1649643353691,
+    "stop" : 1649643353692,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.0.216', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+  "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.0.216', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)\n\tat tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver.beforeMethod(A_Search_FlatTest_NativeSeleniumWebDriver.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1649643351329,
+      "stop" : 1649643352714,
+      "duration" : 1385
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1649643329750,
+      "stop" : 1649643330644,
+      "duration" : 894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1649643329881,
+        "stop" : 1649643329884,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1649643330641,
+        "stop" : 1649643330642,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84f17b4377ab842e",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "84f17b4377ab842e.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "842f482c96444b69",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "842f482c96444b69.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "6389b3484655ba96",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "6389b3484655ba96.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1649643329750,
+      "stop" : 1649643330644,
+      "duration" : 894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1649643329881,
+        "stop" : 1649643329884,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1649643330641,
+        "stop" : 1649643330642,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84f17b4377ab842e",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "84f17b4377ab842e.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "842f482c96444b69",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "842f482c96444b69.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "6389b3484655ba96",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "6389b3484655ba96.properties",
+      "type" : "text/plain",
+      "size" : 394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1649643357763,
+      "stop" : 1649643358004,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1649643357764,
+        "stop" : 1649643357764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1649643357794,
+        "stop" : 1649643357795,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbba3f70798e39b9",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220411-021557",
+        "source" : "bbba3f70798e39b9.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "59"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220411-021557, java.io.ByteArrayInputStream@fc3fd5b]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4861f300343cb29b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220411-021557",
+      "source" : "4861f300343cb29b.txt",
+      "type" : "text/plain",
+      "size" : 30208
+    }, {
+      "uid" : "4286f6fc64a0c969",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "4286f6fc64a0c969.html",
+      "type" : "text/html",
+      "size" : 787812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1649643357763,
+      "stop" : 1649643358004,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1649643357764,
+        "stop" : 1649643357764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "58"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1649643357794,
+        "stop" : 1649643357795,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbba3f70798e39b9",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220411-021557",
+        "source" : "bbba3f70798e39b9.csv",
+        "type" : "text/csv",
+        "size" : 342
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "59"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220411-021557, java.io.ByteArrayInputStream@fc3fd5b]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4861f300343cb29b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220411-021557",
+      "source" : "4861f300343cb29b.txt",
+      "type" : "text/plain",
+      "size" : 30208
+    }, {
+      "uid" : "4286f6fc64a0c969",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "4286f6fc64a0c969.html",
+      "type" : "text/html",
+      "size" : 787812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "testMethod",
+    "value" : "beforeMethod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.google.A_Search_FlatTest_NativeSeleniumWebDriver"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-581"
+  }, {
+    "name" : "thread",
+    "value" : "3244@fv-az198-581.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 116,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 116
+      },
+      "items" : [ {
+        "uid" : "2e59bae372308b0c",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1774//#testresult/2e59bae372308b0c",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az399-239', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649615841389,
+          "stop" : 1649615841389,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7b6e7b43e6d460b",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1773//#testresult/c7b6e7b43e6d460b",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az154-577', ip: '10.1.0.144', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649594998919,
+          "stop" : 1649594998919,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7d3e02ac3994fab",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1772//#testresult/7d3e02ac3994fab",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.0.166', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649572731864,
+          "stop" : 1649572731864,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "47564ddb3a457c0c",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1771//#testresult/47564ddb3a457c0c",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az290-585', ip: '10.1.1.121', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649556411803,
+          "stop" : 1649556411803,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c5b4041d7c692c9",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1770//#testresult/5c5b4041d7c692c9",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az213-483', ip: '10.1.0.221', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649529433720,
+          "stop" : 1649529433720,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "228790f8e742fe1b",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1769//#testresult/228790f8e742fe1b",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az201-688', ip: '10.1.0.248', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649508605418,
+          "stop" : 1649508605418,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "840babd334f0825d",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1768//#testresult/840babd334f0825d",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.0.201', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649486351428,
+          "stop" : 1649486351428,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "38625fdd25cecd2a",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1767//#testresult/38625fdd25cecd2a",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.0.93', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649469461987,
+          "stop" : 1649469461987,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "17ced69160072557",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1766//#testresult/17ced69160072557",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-581', ip: '10.1.1.107', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649443341961,
+          "stop" : 1649443341961,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "de650bd7c7cfd5db",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1765//#testresult/de650bd7c7cfd5db",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az191-929', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649422928897,
+          "stop" : 1649422928897,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "188dcf7b53e23b85",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1764//#testresult/188dcf7b53e23b85",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az201-688', ip: '10.1.0.210', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649400026954,
+          "stop" : 1649400026955,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "678ca0e624a00d2e",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1763//#testresult/678ca0e624a00d2e",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az154-577', ip: '10.1.1.61', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649383608253,
+          "stop" : 1649383608253,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a1657350f6b28765",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1762//#testresult/a1657350f6b28765",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az292-138', ip: '10.1.1.203', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649356757042,
+          "stop" : 1649356757042,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d5a14eb23498921e",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1761//#testresult/d5a14eb23498921e",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az42-539', ip: '10.1.0.34', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1021-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649336420995,
+          "stop" : 1649336420995,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b442c48601a1adeb",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1760//#testresult/b442c48601a1adeb",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az212-379', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649313588667,
+          "stop" : 1649313588669,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "11e7c59f108546d4",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1759//#testresult/11e7c59f108546d4",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-77', ip: '10.1.0.154', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649296777016,
+          "stop" : 1649296777016,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8d487991fa31fb9e",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1758//#testresult/8d487991fa31fb9e",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az198-77', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649270164817,
+          "stop" : 1649270164817,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "285eecd07366066b",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1757//#testresult/285eecd07366066b",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az213-132', ip: '10.1.0.211', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649249922356,
+          "stop" : 1649249922356,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1df6a3c8539b4196",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1756//#testresult/1df6a3c8539b4196",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az397-256', ip: '10.1.0.245', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649227192642,
+          "stop" : 1649227192642,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1a86d3e7eca3fa60",
+        "reportUrl" : "https://MohabMohie.github.io/using_SHAFT_ENGINE/allure/1755//#testresult/1a86d3e7eca3fa60",
+        "status" : "broken",
+        "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az290-227', ip: '10.1.0.117', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1017-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]",
+        "time" : {
+          "start" : 1649210694305,
+          "stop" : 1649210694306,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c09f575c6101887.json",
+  "parameterValues" : [ ]
+}
