@@ -55,3 +55,7 @@
     -   This is the desired output for your listeners configuration <img src="https://drive.google.com/uc?export=download&id=1h047bFULAzItLr2yJ_LNnIToJjRttUDX" alt="6 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
     -   Success! <img src="https://drive.google.com/uc?export=download&id=1TiFuFW2s2hozOtkM9t-ZBWbOEdQssV6g" alt="7 of 7" style="display:block; margin-left:auto; margin-right:auto;"/>
 
+
+## Debug issue
+
+IntelliJ IDEA version 2021.3.1 and beyond might give exception error if you try to run in debug mode .In order to solve this issue go to this option windows : File -> Settings -> Build, Execution, Deployment -> Debugger -> Async Stack Traces and uncheck Instrumenting agent option.
